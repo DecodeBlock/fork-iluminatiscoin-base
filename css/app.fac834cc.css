@@ -16716,7 +16716,7 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
-    background: url("/img/logo-bg.8907279.svg"), linear-gradient(160deg, #f9ce41, #f5ac0e);
+    background: linear-gradient(160deg, #f9ce41, #f5ac0e);
 }
 
 td {
