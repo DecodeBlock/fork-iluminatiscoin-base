@@ -142,7 +142,7 @@
                     }
                 }), a("span", {
                     staticClass: "text-primary fw-bold navbar-brand-text"
-                }, [t._v(" BNB Brokers ")])]), t.getUserAccount ? [a("div", {
+                }, [t._v(" IluminatisCoin ")])]), t.getUserAccount ? [a("div", {
                     staticClass: "d-none d-sm-flex"
                 }, [a("p", {
                     staticClass: "mb-0 text-primary"
@@ -1324,7 +1324,7 @@
                     staticClass: "text-center pb-3"
                 }, [n("p", {
                     staticClass: "fw-bold fs-2"
-                }, [t._v("BNB Brokers")]), n("p", { staticClass: "home-info" }, [t._v(" low risk high reward yield farm")]),
+                }, [t._v("IluminatisCoin")]), n("p", { staticClass: "home-info" }, [t._v(" low risk high reward yield farm")]),
                 n("p", {}, [t._v(" on Binance Smart Chain ")])])])
             }, function () {
                 var t = this,
@@ -1357,7 +1357,7 @@
                     staticClass: "community-block"
                 }, [a("p", {
                     staticClass: "mb-3 text-center fs-4"
-                }, [t._v(" Start your yield farm journey "), a("br"), t._v(" with BNB Brokers community ")]), a("div", {
+                }, [t._v(" Start your yield farm journey "), a("br"), t._v(" with IluminatisCoin community ")]), a("div", {
                     staticClass: "row"
                 }, [a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
@@ -1392,7 +1392,7 @@
                     staticClass: "fs-5 fw-light home-info-2"
                 }, [t._v("Customer support")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
-                }, [a("small", [t._v("BNB Brokers 24/7 provides you our knowledgable and experienced customer support team in "), a("a", {
+                }, [a("small", [t._v("IluminatisCoin 24/7 provides you our knowledgable and experienced customer support team in "), a("a", {
                     staticClass: "text-dark",
                     attrs: {
                         href: "https://t.me/bnbbrokers",
