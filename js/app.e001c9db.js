@@ -2234,7 +2234,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 15 ")])])
+                }, [n("span", [t._v(" 12 ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2253,7 +2253,11 @@
                         scope: "row"
                     }
                 }, [n("span", [t._v(" 101.25% ")])])
-            }, function () {
+            }, 
+            
+            
+            
+            function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
