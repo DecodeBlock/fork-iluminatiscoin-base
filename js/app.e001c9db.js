@@ -1365,7 +1365,7 @@
                     staticClass: "community-block"
                 }, [a("p", {
                     staticClass: "mb-3 text-center fs-4"
-                }, [t._v(" Start your yield farm journey "), a("br"), t._v(" with IluminatisCoin community ")]), a("div", {
+                }, [t._v(" Hola Mundo "), a("br"), t._v(" with IluminatisCoin community ")]), a("div", {
                     staticClass: "row"
                 }, [a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
