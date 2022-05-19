@@ -2644,7 +2644,7 @@
         t.exports = n.p + "img/7.png"
     },
     c042: function (t, e, n) {
-        t.exports = n.p + "img/support.401595ad.png"
+        t.exports = n.p + "img/030.png"
     },
     d3af: function (t, e, n) {
         t.exports = n.p + "img/3b337921e04b6b4474d30684bfa430b9.a72f8730.svg"
