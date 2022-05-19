@@ -1326,27 +1326,8 @@
                     staticClass: "fw-bold fs-2"
                 }, [t._v("IluminatisCoin")]), n("p", { staticClass: "home-info" }, [t._v(" low risk high reward yield farm")]),
                 n("p", {}, [t._v(" on Binance Smart Chain ")])])])
-            }, function () {
-                var t = this,
-                    e = t.$createElement,
-                    n = t._self._c || e;
-                return n("div", {
-                    staticClass: "col-12 col-sm-6 my-4"
-                }, [n("div", [n("a", {
-                    staticClass: "btn btn-primary w-100 mt-3",
-                    attrs: {
-                        href: "https://bscscan.com/address/0xcfefa22c4823b6b44592d98b18280a846d3524c3#code",
-                        target: "_blank"
-                    }
-                }, [t._v("Verified Contract ")]), n("a", {
-                    staticClass: "btn btn-primary w-100 mt-3",
-                    attrs: {
-                        href: "https://t.me/Bnbbrokers",
-                        target: "_blank"
-                    }
-                }, [t._v("Telegram ")])])])
             }, 
-            },
+            ],
             M = n("3835"),
             I = (n("d3b7"), n("3ca3"), n("ddb0"), n("b680"), n("a9e3"), n("25f0"), {
                 name: "Home",
