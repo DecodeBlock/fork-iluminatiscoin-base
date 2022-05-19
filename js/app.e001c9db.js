@@ -1586,7 +1586,7 @@
                     staticClass: "d-flex justify-content-between mb-3 for-xs"
                 }, [a("span", {
                     staticClass: "text-capitalize me-3 full-width-right"
-                }, [t._v("BNB Available: " + t._s(t.BNBBalance) + " ")]),
+                }, [t._v("USDT Disponible: " + t._s(t.BNBBalance) + " ")]),
                 a("div", [a("span", {
                     staticClass: "text-capitalize me-3"
                 }, [t._v("Total Earn: " + t._s(t.total_earning_one) + " USDT")]), a("button", {
@@ -1618,7 +1618,7 @@
                         type: "number",
                         min: "0.05",
                         step: "0.01",
-                        placeholder: "Enter BNB amount"
+                        placeholder: "Ingrese la cantidad de USDT"
                     },
                     domProps: {
                         value: t.plan_one_amount
@@ -1670,7 +1670,7 @@
                     staticClass: "d-flex justify-content-between mb-3 for-xs"
                 }, [a("span", {
                     staticClass: "text-capitalize me-3 full-width-right"
-                }, [t._v("BNB Available: " + t._s(t.BNBBalance) + " ")]),
+                }, [t._v("USDT Disponible: " + t._s(t.BNBBalance) + " ")]),
                 a("div", [a("span", {
                     staticClass: "text-capitalize me-3"
                 }, [t._v("Total Earn: " + t._s(t.total_earning_two) + " USDT")]), a("button", {
@@ -1702,7 +1702,7 @@
                         type: "number",
                         min: "0.05",
                         step: "0.01",
-                        placeholder: "Enter BNB amount"
+                        placeholder: "Ingrese la cantidad de USDT"
                     },
                     domProps: {
                         value: t.plan_two_amount
@@ -1754,7 +1754,7 @@
                     staticClass: "d-flex justify-content-between mb-3 for-xs"
                 }, [a("span", {
                     staticClass: "text-capitalize me-3 full-width-right"
-                }, [t._v("BNB Available: " + t._s(t.BNBBalance) + " ")]),
+                }, [t._v("USDT Disponible: " + t._s(t.BNBBalance) + " ")]),
                 a("div", [a("span", {
                     staticClass: "text-capitalize me-3"
                 }, [t._v("Total Earn: " + t._s(t.total_earning_three) + " USDT")]), a("button", {
@@ -1786,7 +1786,7 @@
                         type: "number",
                         min: "0.05",
                         step: "0.01",
-                        placeholder: "Enter BNB amount"
+                        placeholder: "Ingrese la cantidad de USDT"
                     },
                     domProps: {
                         value: t.plan_three_amount
@@ -1838,7 +1838,7 @@
                     staticClass: "d-flex justify-content-between mb-3 for-xs"
                 }, [a("span", {
                     staticClass: "text-capitalize me-3 full-width-right"
-                }, [t._v("BNB Available: " + t._s(t.BNBBalance) + " ")]),
+                }, [t._v("USDT Disponible: " + t._s(t.BNBBalance) + " ")]),
                 a("div", [a("span", {
                     staticClass: "text-capitalize me-3"
                 }, [t._v("Total Earn: " + t._s(t.total_earning_four) + " USDT")]), a("button", {
@@ -1870,7 +1870,7 @@
                         type: "number",
                         min: "0.05",
                         step: "0.01",
-                        placeholder: "Enter BNB amount"
+                        placeholder: "Ingrese la cantidad de USDT"
                     },
                     domProps: {
                         value: t.plan_four_amount
