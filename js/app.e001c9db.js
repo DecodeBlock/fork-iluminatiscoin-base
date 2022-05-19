@@ -1519,7 +1519,7 @@
                     staticClass: "rounded pb-3 pt-2"
                 }, [a("p", {
                     staticClass: "mb-0"
-                }, [t._v("Your personal link:")]), a("div", [a("input", {
+                }, [t._v("Su Enlace Personal:")]), a("div", [a("input", {
                     staticClass: "tron-link position-absolute",
                     staticStyle: {
                         opacity: "0"
@@ -1984,42 +1984,42 @@
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("BNB to Harvest:")])])
+                }, [n("small", [t._v("USDT en Plataforma")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("BNB in Wallet")])])
+                }, [n("small", [t._v("USDT en Wallet")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("Total Deposit")])])
+                }, [n("small", [t._v("Total Depositado")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("Total Withdrawn")])])
+                }, [n("small", [t._v("Total Retirado")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("Referral Earnings")])])
+                }, [n("small", [t._v("Ganancias Por Referidos")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("Invited users")])])
+                }, [n("small", [t._v("Usuarios Invitados")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2251,7 +2251,7 @@
                     staticClass: "card-header border-0 pb-0"
                 }, [n("p", {
                     staticClass: "card-title mb-0"
-                }, [t._v("Read before use")])]), n("div", {
+                }, [t._v("Disclaimer")])]), n("div", {
                     staticClass: "card-body"
                 }, [n("small", {
                     staticClass: "fw-light mt-n3 d-block lh-xs padding-top-20px"
