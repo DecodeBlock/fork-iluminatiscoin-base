@@ -266,7 +266,7 @@
                 }, [a("img", {
                     staticClass: "mx-2",
                     staticStyle: {
-                        height: "40px"
+                        height: "50px"
                     },
                     attrs: {
                         src: n("14cc")
