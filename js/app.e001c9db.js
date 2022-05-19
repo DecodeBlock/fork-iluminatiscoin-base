@@ -2234,37 +2234,6 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 12 ")])])
-            }, function () {
-                var t = this,
-                    e = t.$createElement,
-                    n = t._self._c || e;
-                return n("td", {
-                    attrs: {
-                        scope: "row"
-                    }
-                }, [n("span", [t._v(" 1.25% ")])])
-            }, function () {
-                var t = this,
-                    e = t.$createElement,
-                    n = t._self._c || e;
-                return n("td", {
-                    attrs: {
-                        scope: "row"
-                    }
-                }, [n("span", [t._v(" 101.25% ")])])
-            }, 
-            
-            
-            
-            function () {
-                var t = this,
-                    e = t.$createElement,
-                    n = t._self._c || e;
-                return n("td", {
-                    attrs: {
-                        scope: "row"
-                    }
                 }, [n("button", {
                     staticClass: "border-0 bg-transparent"
                 }, [n("span", {
