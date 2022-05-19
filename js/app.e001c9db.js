@@ -1333,7 +1333,7 @@
                 }, [n("p", {
                     staticClass: "fw-bold fs-2"
                 }, [t._v("IluminatisCoin")]), n("p", { staticClass: "home-info" }, [t._v(" GANE INTERESES CON COMERCIO DE ALTA FRECUENCIA")]),
-                n("p", {}, [t._v(" en Binance Smart Chain ")])])])
+                n("p", {}, [t._v(" EN BINANCE SMART CHAIN ")])])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -1365,7 +1365,7 @@
                     staticClass: "community-block"
                 }, [a("p", {
                     staticClass: "mb-3 text-center fs-4"
-                }, [t._v(" MANERA FÁCIL "), a("br"), t._v(" DE COMENZAR CON ILUMINATISCOIN ")]), a("div", {
+                }, [t._v(" OBTENGA GANANCIAS DIARIAMENTE "), a("br"), t._v(" CON ILUMINATISCOIN ")]), a("div", {
                     staticClass: "row"
                 }, [a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
