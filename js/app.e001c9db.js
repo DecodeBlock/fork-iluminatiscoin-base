@@ -279,7 +279,7 @@
                 }, [a("img", {
                     staticClass: "mx-2",
                     staticStyle: {
-                        height: "40px"
+                        height: "50px"
                     },
                     attrs: {
                         src: n("e77c")
@@ -292,7 +292,7 @@
                 }, [a("img", {
                     staticClass: "mx-2",
                     staticStyle: {
-                        height: "40px"
+                        height: "50px"
                     },
                     attrs: {
                         src: n("aa24")
@@ -305,7 +305,7 @@
                 }, [a("img", {
                     staticClass: "mx-2",
                     staticStyle: {
-                        height: "40px"
+                        height: "50px"
                     },
                     attrs: {
                         src: n("aa25")
