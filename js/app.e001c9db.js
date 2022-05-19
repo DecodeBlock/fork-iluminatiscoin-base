@@ -1254,7 +1254,7 @@
                     }, [
 
                         n("div", { staticClass: "timerContainer" }, [
-                            n("h1", { staticClass: "home-info", attrs: { id: "timerHeadline" } }, [t._v("Project launch in")]),
+                            n("h1", { staticClass: "home-info", attrs: { id: "timerHeadline" } }, [t._v("IluminatisCoin")]),
                             n("div", { attrs: { id: "timerCountdown" }, style: { display: "inline-block" } }, [
                                 n("ul", {}, [
                                     n("li", {}, [
