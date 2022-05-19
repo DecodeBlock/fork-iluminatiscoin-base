@@ -1589,7 +1589,7 @@
                 }, [t._v("USDT Disponible: " + t._s(t.BNBBalance) + " ")]),
                 a("div", [a("span", {
                     staticClass: "text-capitalize me-3"
-                }, [t._v("Total Earn: " + t._s(t.total_earning_one) + " USDT")]), a("button", {
+                }, [t._v("Ganancia: " + t._s(t.total_earning_one) + " USDT")]), a("button", {
                     staticClass: "border-0 bg-transparent ms-auto",
                     on: {
                         click: function (e) {
@@ -1618,7 +1618,7 @@
                         type: "number",
                         min: "0.05",
                         step: "0.01",
-                        placeholder: "Ingrese la cantidad de USDT"
+                        placeholder: "Cantidad de USDT"
                     },
                     domProps: {
                         value: t.plan_one_amount
@@ -1673,7 +1673,7 @@
                 }, [t._v("USDT Disponible: " + t._s(t.BNBBalance) + " ")]),
                 a("div", [a("span", {
                     staticClass: "text-capitalize me-3"
-                }, [t._v("Total Earn: " + t._s(t.total_earning_two) + " USDT")]), a("button", {
+                }, [t._v("Ganancia: " + t._s(t.total_earning_two) + " USDT")]), a("button", {
                     staticClass: "border-0 bg-transparent ms-auto",
                     on: {
                         click: function (e) {
@@ -1702,7 +1702,7 @@
                         type: "number",
                         min: "0.05",
                         step: "0.01",
-                        placeholder: "Ingrese la cantidad de USDT"
+                        placeholder: "Cantidad de USDT"
                     },
                     domProps: {
                         value: t.plan_two_amount
@@ -1757,7 +1757,7 @@
                 }, [t._v("USDT Disponible: " + t._s(t.BNBBalance) + " ")]),
                 a("div", [a("span", {
                     staticClass: "text-capitalize me-3"
-                }, [t._v("Total Earn: " + t._s(t.total_earning_three) + " USDT")]), a("button", {
+                }, [t._v("Ganancia: " + t._s(t.total_earning_three) + " USDT")]), a("button", {
                     staticClass: "border-0 bg-transparent ms-auto",
                     on: {
                         click: function (e) {
@@ -1786,7 +1786,7 @@
                         type: "number",
                         min: "0.05",
                         step: "0.01",
-                        placeholder: "Ingrese la cantidad de USDT"
+                        placeholder: "Cantidad de USDT"
                     },
                     domProps: {
                         value: t.plan_three_amount
@@ -1841,7 +1841,7 @@
                 }, [t._v("USDT Disponible: " + t._s(t.BNBBalance) + " ")]),
                 a("div", [a("span", {
                     staticClass: "text-capitalize me-3"
-                }, [t._v("Total Earn: " + t._s(t.total_earning_four) + " USDT")]), a("button", {
+                }, [t._v("Ganancia: " + t._s(t.total_earning_four) + " USDT")]), a("button", {
                     staticClass: "border-0 bg-transparent ms-auto",
                     on: {
                         click: function (e) {
@@ -1870,7 +1870,7 @@
                         type: "number",
                         min: "0.05",
                         step: "0.01",
-                        placeholder: "Ingrese la cantidad de USDT"
+                        placeholder: "Cantidad de USDT"
                     },
                     domProps: {
                         value: t.plan_four_amount
@@ -2409,14 +2409,14 @@
                         isLoading_three: !1,
                         isLoading_four: !1,
                         isApproved: !1,
-                        stakeBtn_one: "Stake",
-                        stakeBtn_two: "Stake",
-                        stakeBtn_three: "Stake",
-                        stakeBtn_four: "Stake",
-                        approveBtn_one: "Approve Contract",
-                        approveBtn_two: "Approve Contract",
-                        approveBtn_three: "Approve Contract",
-                        approveBtn_four: "Approve Contract",
+                        stakeBtn_one: "Invertir",
+                        stakeBtn_two: "Invertir",
+                        stakeBtn_three: "Invertir",
+                        stakeBtn_four: "Invertir",
+                        approveBtn_one: "Aprobar Contrato",
+                        approveBtn_two: "Aprobar Contrato",
+                        approveBtn_three: "Aprobar Contrato",
+                        approveBtn_four: "Aprobar Contrato",
                         timer: null,
                         copied: !1,
                         row_one: !1,
