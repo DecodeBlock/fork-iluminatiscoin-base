@@ -142,13 +142,7 @@
                     }
                 }), a("span", {
                     staticClass: "text-primary fw-bold navbar-brand-text"
-                }, [{
-                    staticClass: "navbar-brand p-0",
-                    attrs: {
-                        src: n("43f2"),
-                        alt: "logo"
-                    }
-                }])]), t.getUserAccount ? [a("div", {
+                }, [t._v(" IluminatisCoin ")])]), t.getUserAccount ? [a("div", {
                     staticClass: "d-none d-sm-flex"
                 }, [a("p", {
                     staticClass: "mb-0 text-primary"
