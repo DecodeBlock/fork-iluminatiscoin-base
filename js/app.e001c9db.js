@@ -1465,7 +1465,7 @@
                     staticClass: "w-100"
                 }, [t._m(1), a("p", {
                     staticClass: "fs-5 fw-bold mb-0"
-                }, [t._v(t._s(t.userAvailable) + " BNB")])]), a("button", {
+                }, [t._v(t._s(t.userAvailable) + " USDT")])]), a("button", {
                     staticClass: "btn btn-primary ms-2 w-50",
                     attrs: {
                         disabled: !t.getUserAccount || "0.000" === t.userAvailable
@@ -1481,25 +1481,25 @@
                     staticClass: "w-100"
                 }, [t._m(2), a("p", {
                     staticClass: "fs-5 fw-bold mb-0"
-                }, [t._v(t._s(t.BNBBalance) + " BNB")])])]), a("div", {
+                }, [t._v(t._s(t.BNBBalance) + " USDT")])])]), a("div", {
                     staticClass: "col-6 mb-4"
                 }, [a("div", {
                     staticClass: "w-100"
                 }, [t._m(3), a("p", {
                     staticClass: "fs-5 fw-bold mb-0"
-                }, [t._v(t._s(t.totalDeposit) + " BNB")])])]), a("div", {
+                }, [t._v(t._s(t.totalDeposit) + " USDT")])])]), a("div", {
                     staticClass: "col-6 mb-4"
                 }, [a("div", {
                     staticClass: "w-100"
                 }, [t._m(4), a("p", {
                     staticClass: "fs-5 fw-bold mb-0"
-                }, [t._v(t._s(t.totalWithdrawn) + " BNB")])])]), a("div", {
+                }, [t._v(t._s(t.totalWithdrawn) + " USDT")])])]), a("div", {
                     staticClass: "col-6 col-sm-3 mb-4"
                 }, [a("div", {
                     staticClass: "w-100"
                 }, [t._m(5), a("p", {
                     staticClass: "fs-5 fw-bold mb-0"
-                }, [t._v(t._s(t.totalBonus) + " BNB")])])]), a("div", {
+                }, [t._v(t._s(t.totalBonus) + " USDT")])])]), a("div", {
                     staticClass: "col-6 col-sm-3 mb-4"
                 }, [a("div", {
                     staticClass: "w-100"
@@ -1550,7 +1550,7 @@
                     staticClass: "py-1 d-block"
                 }, [t._v(" Copy ")])]), a("span", {
                     staticClass: "tooltip tron-tooltip"
-                }, [t._v(t._s(t.copied || "copy"))])])])])])])])]), a("div", {
+                }, [t._v(t._s(t.copied || "Copiar"))])])])])])])])]), a("div", {
                     staticClass: "col-lg-12 outBoxStakeBnb"
                 }, [a("div", {
                     staticClass: "card border-0 mb-3 dark-style"
@@ -1589,7 +1589,7 @@
                 }, [t._v("BNB Available: " + t._s(t.BNBBalance) + " ")]),
                 a("div", [a("span", {
                     staticClass: "text-capitalize me-3"
-                }, [t._v("Total Earn: " + t._s(t.total_earning_one) + " BNB")]), a("button", {
+                }, [t._v("Total Earn: " + t._s(t.total_earning_one) + " USDT")]), a("button", {
                     staticClass: "border-0 bg-transparent ms-auto",
                     on: {
                         click: function (e) {
@@ -1673,7 +1673,7 @@
                 }, [t._v("BNB Available: " + t._s(t.BNBBalance) + " ")]),
                 a("div", [a("span", {
                     staticClass: "text-capitalize me-3"
-                }, [t._v("Total Earn: " + t._s(t.total_earning_two) + " BNB")]), a("button", {
+                }, [t._v("Total Earn: " + t._s(t.total_earning_two) + " USDT")]), a("button", {
                     staticClass: "border-0 bg-transparent ms-auto",
                     on: {
                         click: function (e) {
@@ -1757,7 +1757,7 @@
                 }, [t._v("BNB Available: " + t._s(t.BNBBalance) + " ")]),
                 a("div", [a("span", {
                     staticClass: "text-capitalize me-3"
-                }, [t._v("Total Earn: " + t._s(t.total_earning_three) + " BNB")]), a("button", {
+                }, [t._v("Total Earn: " + t._s(t.total_earning_three) + " USDT")]), a("button", {
                     staticClass: "border-0 bg-transparent ms-auto",
                     on: {
                         click: function (e) {
@@ -1841,7 +1841,7 @@
                 }, [t._v("BNB Available: " + t._s(t.BNBBalance) + " ")]),
                 a("div", [a("span", {
                     staticClass: "text-capitalize me-3"
-                }, [t._v("Total Earn: " + t._s(t.total_earning_four) + " BNB")]), a("button", {
+                }, [t._v("Total Earn: " + t._s(t.total_earning_four) + " USDT")]), a("button", {
                     staticClass: "border-0 bg-transparent ms-auto",
                     on: {
                         click: function (e) {
@@ -2051,7 +2051,7 @@
                     staticClass: "card-header border-0 pb-0"
                 }, [n("p", {
                     staticClass: "card-title mb-0"
-                }, [t._v("Stake BNB")])])
+                }, [t._v("Stake USDT")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2063,12 +2063,12 @@
                     attrs: {
                         scope: "col"
                     }
-                }, [n("small", [t._v("days")])]), n("td", {
+                }, [n("small", [t._v("Horas")])]), n("td", {
                     staticClass: "text-capitalize",
                     attrs: {
                         scope: "col"
                     }
-                }, [n("small", [t._v("% daily")])]), n("td", {
+                }, [n("small", [t._v("% Ganancia")])]), n("td", {
                     staticClass: "text-capitalize",
                     attrs: {
                         scope: "col"
@@ -2087,7 +2087,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 120 ")])])
+                }, [n("span", [t._v(" 3 ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2096,7 +2096,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 2.5% ")])])
+                }, [n("span", [t._v(" 0.31% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2105,7 +2105,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 300% ")])])
+                }, [n("span", [t._v(" 100,31% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
