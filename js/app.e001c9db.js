@@ -1316,10 +1316,10 @@
                     }, [t._v(" Dashboard ")]), n("a", {
                         staticClass: "btn btn-primary w-100 mt-3",
                         attrs: {
-                            href: "http://busdharvest.com/docs.pdf",
+                            href: "https://iluminatis-coin.gitbook.io/iluminatiscoin/whitepaper/quienes-somos/",
                             target: "_blank"
                         }
-                    }, [t._v("Information ")])], 1)]), t._m(1)])])])])])])]),
+                    }, [t._v("Información ")])], 1)]), t._m(1)])])])])])])]),
                     t._m(2)])])
             },
             D = [function () {
@@ -1343,16 +1343,16 @@
                 }, [n("div", [n("a", {
                     staticClass: "btn btn-primary w-100 mt-3",
                     attrs: {
-                        href: "https://bscscan.com/address/0xcfefa22c4823b6b44592d98b18280a846d3524c3#code",
+                        href: "https://bscscan.com/",
                         target: "_blank"
                     }
-                }, [t._v("Verified Contract ")]), n("a", {
+                }, [t._v("BlockScout ")]), n("a", {
                     staticClass: "btn btn-primary w-100 mt-3",
                     attrs: {
-                        href: "https://t.me/Bnbbrokers",
+                        href: "https://discord.com/invite/G4PaKrcZWR/",
                         target: "_blank"
                     }
-                }, [t._v("Telegram ")])])])
+                }, [t._v("Discord ")])])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -1365,7 +1365,7 @@
                     staticClass: "community-block"
                 }, [a("p", {
                     staticClass: "mb-3 text-center fs-4"
-                }, [t._v(" OBTENGA GANANCIAS DIARIAMENTE "), a("br"), t._v(" CON ILUMINATISCOIN ")]), a("div", {
+                }, [t._v(" OBTENGA GANANCIAS DIARIAMENTE "), a("br"), t._v(" DE COMENZAR CON ILUMINATISCOIN ")]), a("div", {
                     staticClass: "row"
                 }, [a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
