@@ -142,7 +142,7 @@
                     }
                 }), a("span", {
                     staticClass: "text-primary fw-bold navbar-brand-text"
-                }, [t._v(" IluminatisCoin ")])]), t.getUserAccount ? [a("div", {
+                }, [t._v(" EL CRIPTOACTIVO MÁS POTENTE DEL MERCADO ")])]), t.getUserAccount ? [a("div", {
                     staticClass: "d-none d-sm-flex"
                 }, [a("p", {
                     staticClass: "mb-0 text-primary"
@@ -1298,13 +1298,13 @@
                         staticClass: "col-12 col-sm-6 my-4 text-sm-center"
                     }, [n("p", {
                         staticClass: "card-subtitle"
-                    }, [t._v("Total USDT Depositados")]), n("p", {
+                    }, [t._v("TOTAL USDT DEPOSITADOS")]), n("p", {
                         staticClass: "card-title mb-0"
                     }, [t._v("" + t._s(t.totalInvested))])]), n("div", {
                         staticClass: "col-12 col-sm-6 my-4 text-sm-center"
                     }, [n("p", {
                         staticClass: "card-subtitle"
-                    }, [t._v("Total Ganancias por Referencias")]), n("p", {
+                    }, [t._v("GANANCIAS POR REFERENCIAS")]), n("p", {
                         staticClass: "card-title mb-0"
                     }, [t._v("" + t._s(t.totalReferralEarnings) + " ")])]), n("div", {
                         staticClass: "col-12 col-sm-6 my-4 text-sm-center"
