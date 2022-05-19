@@ -142,7 +142,13 @@
                     }
                 }), a("span", {
                     staticClass: "text-primary fw-bold navbar-brand-text"
-                }, [t._v(" IluminatisCoin ")])]), t.getUserAccount ? [a("div", {
+                }, [{
+                    staticClass: "navbar-brand p-0",
+                    attrs: {
+                        src: n("43f2"),
+                        alt: "logo"
+                    }
+                }])]), t.getUserAccount ? [a("div", {
                     staticClass: "d-none d-sm-flex"
                 }, [a("p", {
                     staticClass: "mb-0 text-primary"
@@ -2691,7 +2697,7 @@
 
             //do something later when date is reached
             if (distance < 0) {
-                document.getElementById("timerHeadline").innerText = "Dapp IluminatisCoins";
+                document.getElementById("timerHeadline").innerText = "IluminatisCoin DApp";
                 document.getElementById("timerCountdown").style.display = "none";
                 document.getElementById("timerContent").style.display = "block";
                 clearInterval(x);
