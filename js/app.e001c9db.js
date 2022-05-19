@@ -264,6 +264,10 @@
                         target: "_blank"
                     }
                 }, [a("img", {
+                    staticClass: "mx-2",
+                    staticStyle: {
+                        height: "40px"
+                    },
                     attrs: {
                         src: n("14cc")
                     }
@@ -273,6 +277,10 @@
                         target: "_blank"
                     }
                 }, [a("img", {
+                    staticClass: "mx-2",
+                    staticStyle: {
+                        height: "40px"
+                    },
                     attrs: {
                         src: n("e77c")
                     }
@@ -297,7 +305,7 @@
                 }, [a("img", {
                     staticClass: "mx-2",
                     staticStyle: {
-                        height: "60px"
+                        height: "40px"
                     },
                     attrs: {
                         src: n("aa25")
