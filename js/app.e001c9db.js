@@ -2012,14 +2012,14 @@
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("Ganancias Por Referidos")])])
+                }, [n("small", [t._v("Total Por Referidos")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("Usuarios Invitados")])])
+                }, [n("small", [t._v("Invitados")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2035,14 +2035,14 @@
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [t._v("1 LVL "), n("small", [t._v("(your invited user)")]), t._v(" - 7%")])
+                }, [t._v("1 LVL - "), n("small", [t._v("(your invited user)")]), t._v(" - 7%")])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [t._v(" 2 LVL "), n("small", [t._v("(user invited by your 1 lvl)")]), t._v(" - 3% ")])
+                }, [t._v(" 2 LVL - "), n("small", [t._v("(user invited by your 1 lvl)")]), t._v(" - 3% ")])
             }, function () {
                 var t = this,
                     e = t.$createElement,
