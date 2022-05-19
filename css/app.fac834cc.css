@@ -16717,7 +16717,7 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
-    background: linear-gradient(160deg, #f9ce41, #f5ac0e);
+    background: #f5ac0e;
 }
 
 td {
@@ -17182,7 +17182,7 @@ header .btn-connect {
 
 .community {
     background-color: #d9d9d9;
-    background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+    background: #f5ac0e;
 }
 
 .home-info {
