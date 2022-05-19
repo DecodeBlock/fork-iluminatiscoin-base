@@ -1298,13 +1298,13 @@
                         staticClass: "col-12 col-sm-6 my-4 text-sm-center"
                     }, [n("p", {
                         staticClass: "card-subtitle"
-                    }, [t._v("Total BNB Deposited")]), n("p", {
+                    }, [t._v("Total USDT Depositados")]), n("p", {
                         staticClass: "card-title mb-0"
                     }, [t._v("" + t._s(t.totalInvested))])]), n("div", {
                         staticClass: "col-12 col-sm-6 my-4 text-sm-center"
                     }, [n("p", {
                         staticClass: "card-subtitle"
-                    }, [t._v("Total Referral Earnings")]), n("p", {
+                    }, [t._v("Total Ganancias por Referencias")]), n("p", {
                         staticClass: "card-title mb-0"
                     }, [t._v("" + t._s(t.totalReferralEarnings) + " ")])]), n("div", {
                         staticClass: "col-12 col-sm-6 my-4 text-sm-center"
@@ -1332,8 +1332,8 @@
                     staticClass: "text-center pb-3"
                 }, [n("p", {
                     staticClass: "fw-bold fs-2"
-                }, [t._v("IluminatisCoin")]), n("p", { staticClass: "home-info" }, [t._v(" low risk high reward yield farm")]),
-                n("p", {}, [t._v(" on Binance Smart Chain ")])])])
+                }, [t._v("IluminatisCoin")]), n("p", { staticClass: "home-info" }, [t._v(" GANE INTERESES CON COMERCIO DE ALTA FRECUENCIA")]),
+                n("p", {}, [t._v(" en Binance Smart Chain ")])])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -1365,7 +1365,7 @@
                     staticClass: "community-block"
                 }, [a("p", {
                     staticClass: "mb-3 text-center fs-4"
-                }, [t._v(" Hola Mundo "), a("br"), t._v(" with IluminatisCoin community ")]), a("div", {
+                }, [t._v(" MANERA FÁCIL "), a("br"), t._v(" DE COMENZAR CON ILUMINATISCOIN ")]), a("div", {
                     staticClass: "row"
                 }, [a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
@@ -1376,7 +1376,7 @@
                     }
                 }), a("p", {
                     staticClass: "fs-5 fw-light home-info-2"
-                }, [t._v("Ironclad securitys")]), a("p", {
+                }, [t._v("COMPRA ILUMINATISCOIN")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
                 }, )]), a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
@@ -1387,7 +1387,7 @@
                     }
                 }), a("p", {
                     staticClass: "fs-5 fw-light home-info-2"
-                }, [t._v("High & Stable APRs")]), a("p", {
+                }, [t._v("INVIERTE Y GANA")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
                 }, )]), a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
@@ -1398,7 +1398,7 @@
                     }
                 }), a("p", {
                     staticClass: "fs-5 fw-light home-info-2"
-                }, [t._v("Customer supports")]), a("p", {
+                }, [t._v("REFIERE A AMIGOS")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
                 }, )])])])])])
             }],
