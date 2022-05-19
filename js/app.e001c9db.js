@@ -1378,7 +1378,7 @@
                     staticClass: "fs-5 fw-light home-info-2"
                 }, [t._v("Ironclad security")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
-                }, [a("small", [t._v("hola")])])]), a("div", {
+                }, )]), a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
                 }, [a("img", {
                     staticClass: "community-img",
@@ -1389,7 +1389,7 @@
                     staticClass: "fs-5 fw-light home-info-2"
                 }, [t._v("High & Stable APR")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
-                }, [a("small", [t._v("mundo")])])]), a("div", {
+                }, )]), a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
                 }, [a("img", {
                     staticClass: "community-img",
@@ -1400,13 +1400,7 @@
                     staticClass: "fs-5 fw-light home-info-2"
                 }, [t._v("Customer support")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
-                }, [a("small", [t._v("code"), a("a", {
-                    staticClass: "text-dark",
-                    attrs: {
-                        href: "https://t.me/bnbbrokers",
-                        target: "_blank"
-                    }
-                }, [t._v("Telegram.")])])])])])])])])
+                }, )])])])])])
             }],
             M = n("3835"),
             I = (n("d3b7"), n("3ca3"), n("ddb0"), n("b680"), n("a9e3"), n("25f0"), {
