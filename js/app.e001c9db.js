@@ -1376,7 +1376,7 @@
                     }
                 }), a("p", {
                     staticClass: "fs-5 fw-light home-info-2"
-                }, [t._v("Ironclad security")]), a("p", {
+                }, [t._v("Ironclad securitys")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
                 }, )]), a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
@@ -1387,7 +1387,7 @@
                     }
                 }), a("p", {
                     staticClass: "fs-5 fw-light home-info-2"
-                }, [t._v("High & Stable APR")]), a("p", {
+                }, [t._v("High & Stable APRs")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
                 }, )]), a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
@@ -1398,7 +1398,7 @@
                     }
                 }), a("p", {
                     staticClass: "fs-5 fw-light home-info-2"
-                }, [t._v("Customer support")]), a("p", {
+                }, [t._v("Customer supports")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
                 }, )])])])])])
             }],
