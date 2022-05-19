@@ -92,7 +92,7 @@
     16: function (t, e) { },
     17: function (t, e) { },
     "175a": function (t, e, n) {
-        t.exports = n.p + "img/020.png"
+        t.exports = n.p + "img/test.gif"
     },
     18: function (t, e) { },
     19: function (t, e) { },
@@ -2638,7 +2638,7 @@
         t.exports = n.p + "img/7.png"
     },
     c042: function (t, e, n) {
-        t.exports = n.p + "img/030.png"
+        t.exports = n.p + "img/test.gif"
     },
     d3af: function (t, e, n) {
         t.exports = n.p + "img/3b337921e04b6b4474d30684bfa430b9.a72f8730.svg"
