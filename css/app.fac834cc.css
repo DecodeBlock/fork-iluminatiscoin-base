@@ -4954,7 +4954,7 @@ fieldset:disabled .btn {
     width: 400%;
     top: 40%;
     height: 20%;
-    background: linear-gradient(90deg, rgb(247 247 247), rgb(223 183 37));
+    background: linear-gradient(90deg, rgb(253 209 6), rgb(241 155 27));
     animation: rotateBorder 4s linear infinite;
 }
 
@@ -4966,7 +4966,7 @@ fieldset:disabled .btn {
     width: 400%;
     top: 40%;
     height: 20%;
-    background: linear-gradient(90deg, rgb(247 247 247), rgb(223 183 37));
+    background: linear-gradient(90deg, rgb(253 209 6), rgb(241 155 27));
     animation: rotateBorder 4s linear infinite;
 }
 
@@ -17182,7 +17182,7 @@ header .btn-connect {
 
 .community {
     background-color: #d9d9d9;
-    background: linear-gradient(179deg, #fff 40%, #fff 50%, #f5ac0e 50%);
+    background: linear-gradient(180deg, #fff 40%, #fff 40%, #f5ac0e 0%);
 }
 
 .home-info {
@@ -17241,7 +17241,7 @@ body {
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: .125rem;
     text-transform: uppercase;
 }
