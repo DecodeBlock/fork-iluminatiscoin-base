@@ -2631,7 +2631,7 @@
     },
     6: function (t, e) { },
     6822: function (t, e, n) {
-        t.exports = n.p + "img/secure.dcf57969.png"
+        t.exports = n.p + "img/010.png"
     },
     7: function (t, e) { },
     8: function (t, e) { },
