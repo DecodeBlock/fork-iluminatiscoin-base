@@ -107,7 +107,7 @@
     3: function (t, e) { },
     4: function (t, e) { },
     "43f2": function (t, e, n) {
-        t.exports = n.p + "img/logo.b3920e7e.jpeg"
+        t.exports = n.p + "img/Icono.png"
     },
     5: function (t, e) { },
     "56d7": function (t, e, n) {
