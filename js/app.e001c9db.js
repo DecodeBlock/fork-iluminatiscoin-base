@@ -1259,19 +1259,19 @@
                                 n("ul", {}, [
                                     n("li", {}, [
                                         n("span", { attrs: { id: "days" } }, []),
-                                        t._v("DAYS")
+                                        t._v("DIAS")
                                     ]),
                                     n("li", {}, [
                                         n("span", { attrs: { id: "hours" } }, []),
-                                        t._v("HOURS")
+                                        t._v("HORAS")
                                     ]),
                                     n("li", {}, [
                                         n("span", { attrs: { id: "minutes" } }, []),
-                                        t._v("MINUTES")
+                                        t._v("MINUTOS")
                                     ]),
                                     n("li", {}, [
                                         n("span", { attrs: { id: "seconds" } }, []),
-                                        t._v("SECONDS")
+                                        t._v("SEGUNDOS")
                                     ])
                                 ])
                             ],
@@ -2697,7 +2697,7 @@
 
             //do something later when date is reached
             if (distance < 0) {
-                document.getElementById("timerHeadline").innerText = "Project is Live!";
+                document.getElementById("timerHeadline").innerText = "Dapp IluminatisCoins";
                 document.getElementById("timerCountdown").style.display = "none";
                 document.getElementById("timerContent").style.display = "block";
                 clearInterval(x);
