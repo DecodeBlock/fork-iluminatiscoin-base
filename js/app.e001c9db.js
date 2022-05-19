@@ -2042,7 +2042,7 @@
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [t._v(" 2 LVL - "), n("small", [t._v("Tu usuario invitado 1 lvl")]), t._v(" - 3% ")])
+                }, [t._v(" 2 LVL - "), n("small", [t._v("Tu usuario invitado")]), t._v(" - 3% 1 lvl")])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2127,7 +2127,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 35 ")])])
+                }, [n("span", [t._v(" 6 ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2136,7 +2136,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 4% ")])])
+                }, [n("span", [t._v(" 0.63% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2145,47 +2145,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 140% ")])])
-            }, function () {
-                var t = this,
-                    e = t.$createElement,
-                    n = t._self._c || e;
-                return n("td", {
-                    attrs: {
-                        scope: "row"
-                    }
-                }, [n("button", {
-                    staticClass: "border-0 bg-transparent"
-                }, [n("span", {
-                    staticClass: "angle mb-1"
-                })])])
-            }, function () {
-                var t = this,
-                    e = t.$createElement,
-                    n = t._self._c || e;
-                return n("td", {
-                    attrs: {
-                        scope: "row"
-                    }
-                }, [n("span", [t._v(" 50 ")])])
-            }, function () {
-                var t = this,
-                    e = t.$createElement,
-                    n = t._self._c || e;
-                return n("td", {
-                    attrs: {
-                        scope: "row"
-                    }
-                }, [n("span", [t._v(" 3.5% ")])])
-            }, function () {
-                var t = this,
-                    e = t.$createElement,
-                    n = t._self._c || e;
-                return n("td", {
-                    attrs: {
-                        scope: "row"
-                    }
-                }, [n("span", [t._v(" 175% ")])])
+                }, [n("span", [t._v(" 100.63% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2207,7 +2167,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 75 ")])])
+                }, [n("span", [t._v(" 9 ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2216,7 +2176,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 3% ")])])
+                }, [n("span", [t._v(" 0.94% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2225,7 +2185,47 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 225% ")])])
+                }, [n("span", [t._v(" 100.94% ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("button", {
+                    staticClass: "border-0 bg-transparent"
+                }, [n("span", {
+                    staticClass: "angle mb-1"
+                })])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 12 ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 1.25% ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 101.25% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
