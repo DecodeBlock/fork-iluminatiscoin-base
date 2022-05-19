@@ -260,7 +260,7 @@
                     staticClass: "\n            d-md-flex\n            justify-content-center\n            text-center\n            align-items-center\n          "
                 }, [a("a", {
                     attrs: {
-                        href: "https://iluminatis-coin.gitbook.io/iluminatiscoin//",
+                        href: "https://iluminatis-coin.gitbook.io/iluminatiscoin/",
                         target: "_blank"
                     }
                 }, [a("img", {
