@@ -92,7 +92,7 @@
     16: function (t, e) { },
     17: function (t, e) { },
     "175a": function (t, e, n) {
-        t.exports = n.p + "img/apr.30ef68bf.png"
+        t.exports = n.p + "img/020.png"
     },
     18: function (t, e) { },
     19: function (t, e) { },
