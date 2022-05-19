@@ -16717,7 +16717,7 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
-    background: linear-gradient(0deg, #000000 20%, #de9801 100%);
+    background: linear-gradient(160deg, #f9ce41, #f5ac0e);
 }
 
 td {
