@@ -1357,56 +1357,8 @@
                 var t = this,
                     e = t.$createElement,
                     a = t._self._c || e;
-                return a("section", {
-                    staticClass: "community"
-                }, [a("div", {
-                    staticClass: "container bot"
-                }, [a("div", {
-                    staticClass: "community-block"
-                }, [a("p", {
-                    staticClass: "mb-3 text-center fs-4"
-                }, [t._v(" Start your yield farm journey "), a("br"), t._v(" with IluminatisCoin community ")]), a("div", {
-                    staticClass: "row"
-                }, [a("div", {
-                    staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
-                }, [a("img", {
-                    staticClass: "community-img",
-                    attrs: {
-                        src: n("6822")
-                    }
-                }), a("p", {
-                    staticClass: "fs-5 fw-light home-info-2"
-                }, [t._v("Ironclad security")]), a("p", {
-                    staticClass: "fw-light mb-0 mt-n1 lh-xs"
-                }, [a("small", [t._v("hola")])])]), a("div", {
-                    staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
-                }, [a("img", {
-                    staticClass: "community-img",
-                    attrs: {
-                        src: n("175a")
-                    }
-                }), a("p", {
-                    staticClass: "fs-5 fw-light home-info-2"
-                }, [t._v("High & Stable APR")]), a("p", {
-                    staticClass: "fw-light mb-0 mt-n1 lh-xs"
-                }, [a("small", [t._v("mundo")])])]), a("div", {
-                    staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
-                }, [a("img", {
-                    staticClass: "community-img",
-                    attrs: {
-                        src: n("c042")
-                    }
-                }), a("p", {
-                    staticClass: "fs-5 fw-light home-info-2"
-                }, [t._v("Customer support")]), a("p", {
-                    staticClass: "fw-light mb-0 mt-n1 lh-xs"
-                }, [a("small", [t._v("code"), a("a", {
-                    staticClass: "text-dark",
-                    attrs: {
-                        href: "https://t.me/bnbbrokers",
-                        target: "_blank"
-                    }
-                }, [t._v("Telegram.")])])])])])])])])
+                
+                
             }],
             M = n("3835"),
             I = (n("d3b7"), n("3ca3"), n("ddb0"), n("b680"), n("a9e3"), n("25f0"), {
