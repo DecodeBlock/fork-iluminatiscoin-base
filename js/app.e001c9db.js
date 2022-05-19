@@ -1353,8 +1353,12 @@
                         target: "_blank"
                     }
                 }, [t._v("Telegram ")])])])
-            }, 
-            ],
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    a = t._self._c || e;
+                
+            }],
             M = n("3835"),
             I = (n("d3b7"), n("3ca3"), n("ddb0"), n("b680"), n("a9e3"), n("25f0"), {
                 name: "Home",
