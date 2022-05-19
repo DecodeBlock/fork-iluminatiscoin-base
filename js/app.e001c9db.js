@@ -2035,14 +2035,14 @@
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [t._v("1 LVL - "), n("small", [t._v("(your invited user)")]), t._v(" - 7%")])
+                }, [t._v("1 LVL - "), n("small", [t._v("Tu usuario invitado")]), t._v(" - 7%")])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [t._v(" 2 LVL - "), n("small", [t._v("(user invited by your 1 lvl)")]), t._v(" - 3% ")])
+                }, [t._v(" 2 LVL - "), n("small", [t._v("Tu usuario invitado 1 lvl")]), t._v(" - 3% ")])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2051,7 +2051,7 @@
                     staticClass: "card-header border-0 pb-0"
                 }, [n("p", {
                     staticClass: "card-title mb-0"
-                }, [t._v("Stake USDT")])])
+                }, [t._v("Invierte USDT")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2255,7 +2255,7 @@
                     staticClass: "card-body"
                 }, [n("small", {
                     staticClass: "fw-light mt-n3 d-block lh-xs padding-top-20px"
-                }, [t._v(" The principal deposit cannot be withdrawn, the only return users can get are daily dividends and referral rewards. Payments is possible only if contract balance have enough BNB. Please analyze the transaction history and balance of the smart contract before investing. High risk - high profit, DYOR ")])])])])
+                }, [t._v(" El depósito principal no se puede retirar, el único retorno que los usuarios pueden obtener son los dividendos diarios y las recompensas por recomendación. Los pagos solo son posibles si el saldo del contrato tiene suficiente USDT. Analice el historial de transacciones y el saldo del contrato inteligente antes de invertir. ")])])])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
