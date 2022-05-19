@@ -2630,10 +2630,10 @@
     "85ec": function (t, e, n) { },
     9: function (t, e) { },
     aa24: function (t, e, n) {
-        t.exports = n.p + "img/twitter.095df65.21b808ec.png"
+        t.exports = n.p + "img/6.png"
     },
     aa25: function (t, e, n) {
-        t.exports = n.p + "img/medium.logo.png"
+        t.exports = n.p + "img/7.png"
     },
     c042: function (t, e, n) {
         t.exports = n.p + "img/support.401595ad.png"
@@ -2646,7 +2646,7 @@
         t.exports = n.p + "img/967323a536688d01da885bdf5a58daa0.455325c3.svg"
     },
     e77c: function (t, e, n) {
-        t.exports = n.p + "img/2a4f7bcb3ea48cf9b412d5d56c13e84c.d8e0684d.svg"
+        t.exports = n.p + "img/5.png"
     },
     ef65: function (t, e, n) {
         t.exports = n.p + "img/2c2a5dc61de30babc08fb5e796cf1673.c0d71daa.svg"
