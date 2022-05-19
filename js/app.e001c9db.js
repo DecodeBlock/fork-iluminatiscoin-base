@@ -1370,7 +1370,7 @@
                     staticClass: "fs-5 fw-light home-info-2"
                 }, [t._v("Ironclad security")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
-                }, [a("small", [t._v("The smart contract code has been successful audited by independent company HazeCrypto which guarantees the protection of your assets from all external risks.")])])]), a("div", {
+                }, [a("small", [t._v("hola")])])]), a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
                 }, [a("img", {
                     staticClass: "community-img",
@@ -1381,7 +1381,7 @@
                     staticClass: "fs-5 fw-light home-info-2"
                 }, [t._v("High & Stable APR")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
-                }, [a("small", [t._v("In the code sets the highest APR among all yield farms on BSC, rules of a smart contract can’t be changed, nothing can affect the amount of income.")])])]), a("div", {
+                }, [a("small", [t._v("mundo")])])]), a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
                 }, [a("img", {
                     staticClass: "community-img",
@@ -1392,7 +1392,7 @@
                     staticClass: "fs-5 fw-light home-info-2"
                 }, [t._v("Customer support")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
-                }, [a("small", [t._v("IluminatisCoin 24/7 provides you our knowledgable and experienced customer support team in "), a("a", {
+                }, [a("small", [t._v("code"), a("a", {
                     staticClass: "text-dark",
                     attrs: {
                         href: "https://t.me/bnbbrokers",
