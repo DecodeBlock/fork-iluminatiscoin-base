@@ -260,7 +260,7 @@
                     staticClass: "\n            d-md-flex\n            justify-content-center\n            text-center\n            align-items-center\n          "
                 }, [a("a", {
                     attrs: {
-                        href: "https://hazecrypto.net/bnbbrokers/",
+                        href: "https://iluminatis-coin.gitbook.io/iluminatiscoin//",
                         target: "_blank"
                     }
                 }, [a("img", {
@@ -269,7 +269,7 @@
                     }
                 })]), a("a", {
                     attrs: {
-                        href: "https://dappradar.com/binance-smart-chain/high-risk/bnbbrokers",
+                        href: "https://bscscan.com/",
                         target: "_blank"
                     }
                 }, [a("img", {
@@ -278,7 +278,7 @@
                     }
                 })]), a("a", {
                     attrs: {
-                        href: "https://twitter.com/bnbbrokers",
+                        href: "https://linktr.ee/",
                         target: "_blank"
                     }
                 }, [a("img", {
@@ -291,7 +291,7 @@
                     }
                 })]), a("a", {
                     attrs: {
-                        href: "https://medium.com/bnbbrokers",
+                        href: "https://discord.com/invite/G4PaKrcZWR/",
                         target: "_blank"
                     }
                 }, [a("img", {
