@@ -8450,7 +8450,7 @@ fieldset:disabled .btn {
 }
 
 .fw-light {
-    font-weight: 300 !important
+    font-weight: 500 !important
 }
 
 .fw-lighter {
@@ -17241,7 +17241,7 @@ body {
 }
 
 h1 {
-    font-weight: normal;
+    font-weight: 600;
     letter-spacing: .125rem;
     text-transform: uppercase;
 }

@@ -142,7 +142,7 @@
                     }
                 }), a("span", {
                     staticClass: "text-primary fw-bold navbar-brand-text"
-                }, [t._v(" EL CRIPTOACTIVO MÁS POTENTE DEL MERCADO ")])]), t.getUserAccount ? [a("div", {
+                }, [t._v(" EL CRIPTOACTIVO MÁS POTENTE ")])]), t.getUserAccount ? [a("div", {
                     staticClass: "d-none d-sm-flex"
                 }, [a("p", {
                     staticClass: "mb-0 text-primary"
