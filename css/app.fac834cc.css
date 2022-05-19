@@ -4954,7 +4954,7 @@ fieldset:disabled .btn {
     width: 400%;
     top: 40%;
     height: 20%;
-    background: linear-gradient(90deg, rgb(71, 70, 70), rgb(97, 94, 94));
+    background: linear-gradient(90deg, rgb(247 247 247), rgb(223 183 37));
     animation: rotateBorder 4s linear infinite;
 }
 
@@ -4966,7 +4966,7 @@ fieldset:disabled .btn {
     width: 400%;
     top: 40%;
     height: 20%;
-    background: linear-gradient(90deg, rgb(71, 70, 70), rgb(97, 94, 94));
+    background: linear-gradient(90deg, rgb(247 247 247), rgb(223 183 37));
     animation: rotateBorder 4s linear infinite;
 }
 
