@@ -3218,7 +3218,7 @@ textarea.form-control.is-invalid {
     border: 1px solid transparent;
     padding: .375rem 20px;
     font-size: 1rem;
-    border-radius: 16px;
+    border-radius: 6px;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
@@ -3255,8 +3255,9 @@ fieldset:disabled .btn {
 .btn-primary:focus,
 .btn-primary:hover {
     color: #000;
-    background-color: #ffce31;
-    border-color: #f4c144
+    background-color: #fff;
+    border-color: #f4c144;
+    font-weight: 600
 }
 
 .btn-check:focus+.btn-primary,
@@ -8430,7 +8431,8 @@ fieldset:disabled .btn {
 }
 
 .fs-4 {
-    font-size: calc(1.275rem + .3vw) !important
+    font-size: calc(1.275rem + .3vw) !important;
+    font-family: "Oswald";
 }
 
 .fs-5 {
@@ -8450,7 +8452,7 @@ fieldset:disabled .btn {
 }
 
 .fw-light {
-    font-weight: 500 !important
+    font-weight: 600 !important
 }
 
 .fw-lighter {
@@ -8462,7 +8464,8 @@ fieldset:disabled .btn {
 }
 
 .fw-bold {
-    font-weight: 500 !important
+    font-weight: 500 !important;
+    font-family: "oswald";
 }
 
 .fw-bolder {
@@ -17057,7 +17060,8 @@ header .btn-connect {
 }
 
 .card-subtitle {
-    font-size: 24px
+    font-size: 22px;
+    font-family: "oswald";
 }
 
 .card-text {
@@ -17244,6 +17248,7 @@ h1 {
     font-weight: 500;
     letter-spacing: .125rem;
     text-transform: uppercase;
+    font-family: "oswald";
 }
 
 li {
