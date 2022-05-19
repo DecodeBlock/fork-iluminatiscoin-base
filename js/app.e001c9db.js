@@ -86,7 +86,7 @@
     13: function (t, e) { },
     14: function (t, e) { },
     "14cc": function (t, e, n) {
-        t.exports = n.p + "img/haze.ff55b9b.a0e04a38.png"
+        t.exports = n.p + "img/4.png"
     },
     15: function (t, e) { },
     16: function (t, e) { },
