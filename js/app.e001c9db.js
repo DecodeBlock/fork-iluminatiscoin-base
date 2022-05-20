@@ -2518,17 +2518,20 @@
                     calculateTotalEarning: function (t, e) {
                         switch (Number(e)) {
                             case 0:
-                                this.total_earning_one = Number(300 * t.target.value) / 100;
+                                this.total_earning_one = Number(0,31 * t.target.value) / 100;
                                 break;
                             case 1:
-                                this.total_earning_two = Number(140 * t.target.value) / 100;
+                                this.total_earning_two = Number(0.63 * t.target.value) / 100;
                                 break;
                             case 2:
                                 this.total_earning_three = Number(175 * t.target.value) / 100;
                                 break;
                             case 3:
                                 this.total_earning_four = Number(225 * t.target.value) / 100;
-                                break
+                                break;
+                            case 3:
+                                this.total_earning_three = Number(175 * t.target.value) / 100;
+                                break;
                         }
                     },
                     clearBtn: function () {
