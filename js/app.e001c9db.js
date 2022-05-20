@@ -2544,7 +2544,7 @@
                         }
                     },
                     clearBtn: function () {
-                        this.isLoading_one = !1, this.isLoading_two = !1, this.isLoading_three = !1, this.isLoading_four = !1, this.stakeBtn_one = "Stake", this.stakeBtn_two = "Stake", this.stakeBtn_three = "Stake", this.stakeBtn_four = "Stake", this.approveBtn_one = "Approve Contract", this.approveBtn_two = "Approve Contract", this.approveBtn_three = "Approve Contract", this.approveBtn_four = "Approve Contract"
+                        this.isLoading_one = !1, this.isLoading_two = !1, this.isLoading_three = !1, this.isLoading_four = !1, this.stakeBtn_one = "Stake", this.stakeBtn_two = "Stake", this.stakeBtn_three = "Stake", this.stakeBtn_four = "Stake", this.stakeBtn_five = "Stake", this.stakeBtn_six = "Stake", this.stakeBtn_seven = "Stake", this.stakeBtn_eight = "Stake", this.approveBtn_one = "Approve Contract", this.approveBtn_two = "Approve Contract", this.approveBtn_three = "Approve Contract", this.approveBtn_four = "Approve Contract", this.approveBtn_five = "Approve Contract", this.approveBtn_six = "Approve Contract", this.approveBtn_seven = "Approve Contract", this.approveBtn_eight = "Approve Contract"
                     },
                     approve: function (t) {
                         var e = this;
@@ -2587,16 +2587,16 @@
                                     n = this.plan_four_amount, this.stakeBtn_four = "Pending Confirmation";
                                     break;
                                 case 4:
-                                    n = this.plan_four_amount, this.stakeBtn_five = "Pending Confirmation";
+                                    n = this.plan_five_amount, this.stakeBtn_five = "Pending Confirmation";
                                     break;
                                 case 5:
-                                    n = this.plan_four_amount, this.stakeBtn_six = "Pending Confirmation";
+                                    n = this.plan_six_amount, this.stakeBtn_six = "Pending Confirmation";
                                     break;
                                 case 6:
-                                    n = this.plan_four_amount, this.stakeBtn_seven = "Pending Confirmation";
+                                    n = this.plan_seven_amount, this.stakeBtn_seven = "Pending Confirmation";
                                     break;
                                 case 7:
-                                    n = this.plan_four_amount, this.stakeBtn_eight = "Pending Confirmation";
+                                    n = this.plan_eight_amount, this.stakeBtn_eight = "Pending Confirmation";
                                     break  
                             }
                             if (console.log(n), null === n || "" === n || 0 == n) return this.clearBtn(), void this.$toasted.show("Enter the amount to stake");
