@@ -2529,9 +2529,18 @@
                             case 3:
                                 this.total_earning_four = Number(225 * t.target.value) / 100;
                                 break;
-                            case 3:
-                                this.total_earning_three = Number(175 * t.target.value) / 100;
+                            case 4:
+                                this.total_earning_five = Number(175 * t.target.value) / 100;
                                 break;
+                            case 5:
+                                this.total_earning_six = Number(175 * t.target.value) / 100;
+                                break;
+                            case 6:
+                                this.total_earning_seven = Number(175 * t.target.value) / 100;
+                                break;
+                            case 7:
+                                this.total_earning_eight = Number(175 * t.target.value) / 100;
+                                break
                         }
                     },
                     clearBtn: function () {
@@ -2576,7 +2585,19 @@
                                     break;
                                 case 3:
                                     n = this.plan_four_amount, this.stakeBtn_four = "Pending Confirmation";
-                                    break
+                                    break;
+                                case 4:
+                                    n = this.plan_four_amount, this.stakeBtn_five = "Pending Confirmation";
+                                    break;
+                                case 5:
+                                    n = this.plan_four_amount, this.stakeBtn_six = "Pending Confirmation";
+                                    break;
+                                case 6:
+                                    n = this.plan_four_amount, this.stakeBtn_seven = "Pending Confirmation";
+                                    break;
+                                case 7:
+                                    n = this.plan_four_amount, this.stakeBtn_eight = "Pending Confirmation";
+                                    break  
                             }
                             if (console.log(n), null === n || "" === n || 0 == n) return this.clearBtn(), void this.$toasted.show("Enter the amount to stake");
                             var valueToSend = this.getWeb3.utils.toWei(n.toString(), "ether");
