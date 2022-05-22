@@ -1888,7 +1888,7 @@
                         input: [function (e) {
                             e.target.composing || (t.plan_four_amount = e.target.value)
                         }, function (e) {
-                            return t.calculateTotalEarning(e, 2)
+                            return t.calculateTotalEarning(e, 3)
                         }]
                     }
                 }), a("button", {
@@ -1975,7 +1975,7 @@
                         input: [function (e) {
                             e.target.composing || (t.plan_five_amount = e.target.value)
                         }, function (e) {
-                            return t.calculateTotalEarning(e, 2)
+                            return t.calculateTotalEarning(e, 4)
                         }]
                     }
                 }), a("button", {
@@ -2062,7 +2062,7 @@
                         input: [function (e) {
                             e.target.composing || (t.plan_six_amount = e.target.value)
                         }, function (e) {
-                            return t.calculateTotalEarning(e, 2)
+                            return t.calculateTotalEarning(e, 5)
                         }]
                     }
                 }), a("button", {
@@ -2149,7 +2149,7 @@
                         input: [function (e) {
                             e.target.composing || (t.plan_seven_amount = e.target.value)
                         }, function (e) {
-                            return t.calculateTotalEarning(e, 2)
+                            return t.calculateTotalEarning(e, 6)
                         }]
                     }
                 }), a("button", {
@@ -2236,7 +2236,7 @@
                         input: [function (e) {
                             e.target.composing || (t.plan_eight_amount = e.target.value)
                         }, function (e) {
-                            return t.calculateTotalEarning(e, 3)
+                            return t.calculateTotalEarning(e, 7)
                         }]
                     }
                 }), a("button", {
