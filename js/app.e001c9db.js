@@ -2585,35 +2585,6 @@
                 }, [n("span", [t._v(" 101.25% ")])])
             }, 
             
-            function () {
-                var t = this,
-                    e = t.$createElement,
-                    n = t._self._c || e;
-                return n("td", {
-                    attrs: {
-                        scope: "row"
-                    }
-                }, [n("span", [t._v(" 15 ")])])
-            }, function () {
-                var t = this,
-                    e = t.$createElement,
-                    n = t._self._c || e;
-                return n("td", {
-                    attrs: {
-                        scope: "row"
-                    }
-                }, [n("span", [t._v(" 1.25% ")])])
-            }, function () {
-                var t = this,
-                    e = t.$createElement,
-                    n = t._self._c || e;
-                return n("td", {
-                    attrs: {
-                        scope: "row"
-                    }
-                }, [n("span", [t._v(" 101.25% ")])])
-            },
-            
             
             function () {
                 var t = this,
