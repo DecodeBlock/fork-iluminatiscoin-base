@@ -2251,7 +2251,7 @@
                     }
                 }, [a("span", {
                     staticClass: "py-1 d-block px-3"
-                }, [t._v(" " + t._s(t.stakeBtn_four) + " ")])])])])], 2)])])])]) : t._e()])])])])]), t._m(28)])]), a("div", {
+                }, [t._v(" " + t._s(t.stakeBtn_eight) + " ")])])])])], 2)])])])]) : t._e()])])])])]), t._m(28)])]), a("div", {
                     staticClass: "modal",
                     class: t.showModal ? "show" : ""
                 }, [a("div", {
@@ -2583,10 +2583,7 @@
                         scope: "row"
                     }
                 }, [n("span", [t._v(" 101.25% ")])])
-            }, 
-            
-            
-            function () {
+            }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -2599,7 +2596,179 @@
                 }, [n("span", {
                     staticClass: "angle mb-1"
                 })])])
+            }, 
+            
+            
+            function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 15 ")])])
             }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 0.94% ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 100.94% ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("button", {
+                    staticClass: "border-0 bg-transparent"
+                }, [n("span", {
+                    staticClass: "angle mb-1"
+                })])])
+            },
+            
+            
+            function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 18 ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 0.94% ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 100.94% ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("button", {
+                    staticClass: "border-0 bg-transparent"
+                }, [n("span", {
+                    staticClass: "angle mb-1"
+                })])])
+            },
+
+            function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 21 ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 0.94% ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 100.94% ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("button", {
+                    staticClass: "border-0 bg-transparent"
+                }, [n("span", {
+                    staticClass: "angle mb-1"
+                })])])
+            },
+
+            function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 24 ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 0.94% ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 100.94% ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("button", {
+                    staticClass: "border-0 bg-transparent"
+                }, [n("span", {
+                    staticClass: "angle mb-1"
+                })])])
+            },
+
+            function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
@@ -2904,7 +3073,7 @@
                         }
                     },
                     clearBtn: function () {
-                        this.isLoading_one = !1, this.isLoading_two = !1, this.isLoading_three = !1, this.isLoading_four = !1, this.stakeBtn_one = "Stake", this.stakeBtn_two = "Stake", this.stakeBtn_three = "Stake", this.stakeBtn_four = "Stake", this.stakeBtn_five = "Stake", this.stakeBtn_six = "Stake", this.stakeBtn_seven = "Stake", this.stakeBtn_eight = "Stake", this.approveBtn_one = "Approve Contract", this.approveBtn_two = "Approve Contract", this.approveBtn_three = "Approve Contract", this.approveBtn_four = "Approve Contract", this.approveBtn_five = "Approve Contract", this.approveBtn_six = "Approve Contract", this.approveBtn_seven = "Approve Contract", this.approveBtn_eight = "Approve Contract"
+                        this.isLoading_one = !1, this.isLoading_two = !1, this.isLoading_three = !1, this.isLoading_four = !1, this.isLoading_five = !1, this.isLoading_six = !1, this.isLoading_seven = !1, this.isLoading_eight = !1, this.stakeBtn_one = "Stake", this.stakeBtn_two = "Stake", this.stakeBtn_three = "Stake", this.stakeBtn_four = "Stake", this.stakeBtn_five = "Stake", this.stakeBtn_six = "Stake", this.stakeBtn_seven = "Stake", this.stakeBtn_eight = "Stake", this.approveBtn_one = "Approve Contract", this.approveBtn_two = "Approve Contract", this.approveBtn_three = "Approve Contract", this.approveBtn_four = "Approve Contract", this.approveBtn_five = "Approve Contract", this.approveBtn_six = "Approve Contract", this.approveBtn_seven = "Approve Contract", this.approveBtn_eight = "Approve Contract"
                     },
                     approve: function (t) {
                         var e = this;
