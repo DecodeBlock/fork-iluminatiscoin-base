@@ -2518,28 +2518,28 @@
                     calculateTotalEarning: function (t, e) {
                         switch (Number(e)) {
                             case 0:
-                                this.total_earning_one = Number(0,31 * t.target.value) / 100;
+                                this.total_earning_one = Number(0.31 * t.target.value) / 100;
                                 break;
                             case 1:
                                 this.total_earning_two = Number(0.63 * t.target.value) / 100;
                                 break;
                             case 2:
-                                this.total_earning_three = Number(175 * t.target.value) / 100;
+                                this.total_earning_three = Number(0.94 * t.target.value) / 100;
                                 break;
                             case 3:
-                                this.total_earning_four = Number(225 * t.target.value) / 100;
+                                this.total_earning_four = Number(1.25 * t.target.value) / 100;
                                 break;
                             case 4:
-                                this.total_earning_five = Number(175 * t.target.value) / 100;
+                                this.total_earning_five = Number(1.56 * t.target.value) / 100;
                                 break;
                             case 5:
-                                this.total_earning_six = Number(175 * t.target.value) / 100;
+                                this.total_earning_six = Number(1.88 * t.target.value) / 100;
                                 break;
                             case 6:
-                                this.total_earning_seven = Number(175 * t.target.value) / 100;
+                                this.total_earning_seven = Number(2.19 * t.target.value) / 100;
                                 break;
                             case 7:
-                                this.total_earning_eight = Number(175 * t.target.value) / 100;
+                                this.total_earning_eight = Number(2.5 * t.target.value) / 100;
                                 break
                         }
                     },
