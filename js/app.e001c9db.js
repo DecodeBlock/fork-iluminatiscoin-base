@@ -1560,7 +1560,9 @@
                     staticClass: "table"
                 }, [t._m(11), a("tbody", {
                     staticClass: "position-relative"
-                }, [a("tr", {
+                }, 
+                //one
+                [a("tr", {
                     staticClass: "cursor-pointer",
                     on: {
                         click: function (e) {
@@ -1644,7 +1646,9 @@
                     staticClass: "py-1 d-block px-3"
                 }, [t._v(" " + t._s(t.stakeBtn_one) + " ")])])])])], 2)])])])]) : t._e()]), a("tbody", {
                     staticClass: "position-relative"
-                }, [a("tr", {
+                }, 
+                //two
+                [a("tr", {
                     staticClass: "cursor-pointer",
                     on: {
                         click: function (e) {
@@ -1728,7 +1732,9 @@
                     staticClass: "py-1 d-block px-3"
                 }, [t._v(" " + t._s(t.stakeBtn_two) + " ")])])])])], 2)])])])]) : t._e()]), a("tbody", {
                     staticClass: "position-relative"
-                }, [a("tr", {
+                }, 
+                //three
+                [a("tr", {
                     staticClass: "cursor-pointer",
                     on: {
                         click: function (e) {
@@ -1812,7 +1818,10 @@
                     staticClass: "py-1 d-block px-3"
                 }, [t._v(" " + t._s(t.stakeBtn_three) + " ")])])])])], 2)])])])]) : t._e()]), a("tbody", {
                     staticClass: "position-relative"
-                }, [a("tr", {
+                }, 
+                
+                //four
+                [a("tr", {
                     staticClass: "cursor-pointer",
                     on: {
                         click: function (e) {
@@ -1845,7 +1854,7 @@
                     staticClass: "border-0 bg-transparent ms-auto",
                     on: {
                         click: function (e) {
-                            t.rate = 3, t.showModal = !t.showModal
+                            t.rate = 3.5, t.showModal = !t.showModal
                         }
                     }
                 }, [a("img", {
@@ -1879,13 +1888,361 @@
                         input: [function (e) {
                             e.target.composing || (t.plan_four_amount = e.target.value)
                         }, function (e) {
-                            return t.calculateTotalEarning(e, 3)
+                            return t.calculateTotalEarning(e, 2)
                         }]
                     }
                 }), a("button", {
                     staticClass: "btn btn-primary py-2 px-4",
                     attrs: {
                         disabled: !t.getUserAccount //|| t.isLoading_four
+                    },
+                    on: {
+                        click: function (e) {
+                            return e.preventDefault(), t.stakeBNB(2)
+                        }
+                    }
+                }, [a("span", {
+                    staticClass: "py-1 d-block px-3"
+                }, [t._v(" " + t._s(t.stakeBtn_four) + " ")])])])])], 2)])])])]) : t._e()]), a("tbody", {
+                    staticClass: "position-relative"
+                }, 
+                
+                //Five
+                [a("tr", {
+                    staticClass: "cursor-pointer",
+                    on: {
+                        click: function (e) {
+                            t.row_five = !t.row_five
+                        }
+                    }
+                }, [t._m(24), t._m(25), t._m(26), a("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }), t._m(27)]), t.row_five ? a("tr", [a("td", {
+                    staticClass: "p-0 border-0 position-relative end-0",
+                    attrs: {
+                        colspan: "5"
+                    }
+                }, [a("div", {
+                    staticClass: "sub-item overflow-hidden"
+                }, [a("div", {
+                    staticClass: "bg-secondary rounded-bottom p-3"
+                }, [a("div", {
+                    staticClass: "p-1 pe-3"
+                }, [t.getUserAccount ? a("div", {
+                    staticClass: "d-flex justify-content-between mb-3 for-xs"
+                }, [a("span", {
+                    staticClass: "text-capitalize me-3 full-width-right"
+                }, [t._v("USDT Disponible: " + t._s(t.BNBBalance) + " ")]),
+                a("div", [a("span", {
+                    staticClass: "text-capitalize me-3"
+                }, [t._v("Ganancia: " + t._s(t.total_earning_five) + " USDT")]), a("button", {
+                    staticClass: "border-0 bg-transparent ms-auto",
+                    on: {
+                        click: function (e) {
+                            t.rate = 3.5, t.showModal = !t.showModal
+                        }
+                    }
+                }, [a("img", {
+                    staticClass: "me-3",
+                    attrs: {
+                        src: n("f0ba")
+                    }
+                })])])
+                ]) : t._e(), a("form", {
+                    staticClass: "w-lg-75 ms-lg-auto ps-md-4"
+                }, [a("fieldset", {
+                    staticClass: "d-flex w-lg-75 ms-auto"
+                }, [a("input", {
+                    directives: [{
+                        name: "model",
+                        rawName: "v-model",
+                        value: t.plan_five_amount,
+                        expression: "plan_five_amount"
+                    }],
+                    staticClass: "form-control me-n11",
+                    attrs: {
+                        type: "number",
+                        min: "0.05",
+                        step: "0.01",
+                        placeholder: "Cantidad de USDT"
+                    },
+                    domProps: {
+                        value: t.plan_five_amount
+                    },
+                    on: {
+                        input: [function (e) {
+                            e.target.composing || (t.plan_five_amount = e.target.value)
+                        }, function (e) {
+                            return t.calculateTotalEarning(e, 2)
+                        }]
+                    }
+                }), a("button", {
+                    staticClass: "btn btn-primary py-2 px-4",
+                    attrs: {
+                        disabled: !t.getUserAccount //|| t.isLoading_five
+                    },
+                    on: {
+                        click: function (e) {
+                            return e.preventDefault(), t.stakeBNB(2)
+                        }
+                    }
+                }, [a("span", {
+                    staticClass: "py-1 d-block px-3"
+                }, [t._v(" " + t._s(t.stakeBtn_five) + " ")])])])])], 2)])])])]) : t._e()]), a("tbody", {
+                    staticClass: "position-relative"
+                }, 
+                
+                //six
+                [a("tr", {
+                    staticClass: "cursor-pointer",
+                    on: {
+                        click: function (e) {
+                            t.row_six = !t.row_six
+                        }
+                    }
+                }, [t._m(24), t._m(25), t._m(26), a("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }), t._m(27)]), t.row_six ? a("tr", [a("td", {
+                    staticClass: "p-0 border-0 position-relative end-0",
+                    attrs: {
+                        colspan: "5"
+                    }
+                }, [a("div", {
+                    staticClass: "sub-item overflow-hidden"
+                }, [a("div", {
+                    staticClass: "bg-secondary rounded-bottom p-3"
+                }, [a("div", {
+                    staticClass: "p-1 pe-3"
+                }, [t.getUserAccount ? a("div", {
+                    staticClass: "d-flex justify-content-between mb-3 for-xs"
+                }, [a("span", {
+                    staticClass: "text-capitalize me-3 full-width-right"
+                }, [t._v("USDT Disponible: " + t._s(t.BNBBalance) + " ")]),
+                a("div", [a("span", {
+                    staticClass: "text-capitalize me-3"
+                }, [t._v("Ganancia: " + t._s(t.total_earning_six) + " USDT")]), a("button", {
+                    staticClass: "border-0 bg-transparent ms-auto",
+                    on: {
+                        click: function (e) {
+                            t.rate = 3.5, t.showModal = !t.showModal
+                        }
+                    }
+                }, [a("img", {
+                    staticClass: "me-3",
+                    attrs: {
+                        src: n("f0ba")
+                    }
+                })])])
+                ]) : t._e(), a("form", {
+                    staticClass: "w-lg-75 ms-lg-auto ps-md-4"
+                }, [a("fieldset", {
+                    staticClass: "d-flex w-lg-75 ms-auto"
+                }, [a("input", {
+                    directives: [{
+                        name: "model",
+                        rawName: "v-model",
+                        value: t.plan_six_amount,
+                        expression: "plan_six_amount"
+                    }],
+                    staticClass: "form-control me-n11",
+                    attrs: {
+                        type: "number",
+                        min: "0.05",
+                        step: "0.01",
+                        placeholder: "Cantidad de USDT"
+                    },
+                    domProps: {
+                        value: t.plan_six_amount
+                    },
+                    on: {
+                        input: [function (e) {
+                            e.target.composing || (t.plan_six_amount = e.target.value)
+                        }, function (e) {
+                            return t.calculateTotalEarning(e, 2)
+                        }]
+                    }
+                }), a("button", {
+                    staticClass: "btn btn-primary py-2 px-4",
+                    attrs: {
+                        disabled: !t.getUserAccount //|| t.isLoading_six
+                    },
+                    on: {
+                        click: function (e) {
+                            return e.preventDefault(), t.stakeBNB(2)
+                        }
+                    }
+                }, [a("span", {
+                    staticClass: "py-1 d-block px-3"
+                }, [t._v(" " + t._s(t.stakeBtn_six) + " ")])])])])], 2)])])])]) : t._e()]), a("tbody", {
+                    staticClass: "position-relative"
+                }, 
+                
+                //seven
+                [a("tr", {
+                    staticClass: "cursor-pointer",
+                    on: {
+                        click: function (e) {
+                            t.row_seven = !t.row_seven
+                        }
+                    }
+                }, [t._m(24), t._m(25), t._m(26), a("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }), t._m(27)]), t.row_seven ? a("tr", [a("td", {
+                    staticClass: "p-0 border-0 position-relative end-0",
+                    attrs: {
+                        colspan: "5"
+                    }
+                }, [a("div", {
+                    staticClass: "sub-item overflow-hidden"
+                }, [a("div", {
+                    staticClass: "bg-secondary rounded-bottom p-3"
+                }, [a("div", {
+                    staticClass: "p-1 pe-3"
+                }, [t.getUserAccount ? a("div", {
+                    staticClass: "d-flex justify-content-between mb-3 for-xs"
+                }, [a("span", {
+                    staticClass: "text-capitalize me-3 full-width-right"
+                }, [t._v("USDT Disponible: " + t._s(t.BNBBalance) + " ")]),
+                a("div", [a("span", {
+                    staticClass: "text-capitalize me-3"
+                }, [t._v("Ganancia: " + t._s(t.total_earning_seven) + " USDT")]), a("button", {
+                    staticClass: "border-0 bg-transparent ms-auto",
+                    on: {
+                        click: function (e) {
+                            t.rate = 3.5, t.showModal = !t.showModal
+                        }
+                    }
+                }, [a("img", {
+                    staticClass: "me-3",
+                    attrs: {
+                        src: n("f0ba")
+                    }
+                })])])
+                ]) : t._e(), a("form", {
+                    staticClass: "w-lg-75 ms-lg-auto ps-md-4"
+                }, [a("fieldset", {
+                    staticClass: "d-flex w-lg-75 ms-auto"
+                }, [a("input", {
+                    directives: [{
+                        name: "model",
+                        rawName: "v-model",
+                        value: t.plan_seven_amount,
+                        expression: "plan_seven_amount"
+                    }],
+                    staticClass: "form-control me-n11",
+                    attrs: {
+                        type: "number",
+                        min: "0.05",
+                        step: "0.01",
+                        placeholder: "Cantidad de USDT"
+                    },
+                    domProps: {
+                        value: t.plan_seven_amount
+                    },
+                    on: {
+                        input: [function (e) {
+                            e.target.composing || (t.plan_seven_amount = e.target.value)
+                        }, function (e) {
+                            return t.calculateTotalEarning(e, 2)
+                        }]
+                    }
+                }), a("button", {
+                    staticClass: "btn btn-primary py-2 px-4",
+                    attrs: {
+                        disabled: !t.getUserAccount //|| t.isLoading_seven
+                    },
+                    on: {
+                        click: function (e) {
+                            return e.preventDefault(), t.stakeBNB(2)
+                        }
+                    }
+                }, [a("span", {
+                    staticClass: "py-1 d-block px-3"
+                }, [t._v(" " + t._s(t.stakeBtn_seven) + " ")])])])])], 2)])])])]) : t._e()]), a("tbody", {
+                    staticClass: "position-relative"
+                }, 
+                
+                //eight
+                    [a("tr", {
+                    staticClass: "cursor-pointer",
+                    on: {
+                        click: function (e) {
+                            t.row_eight = !t.row_eight
+                        }
+                    }
+                }, [t._m(24), t._m(25), t._m(26), a("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }), t._m(27)]), t.row_eight ? a("tr", [a("td", {
+                    staticClass: "p-0 border-0 position-relative end-0",
+                    attrs: {
+                        colspan: "5"
+                    }
+                }, [a("div", {
+                    staticClass: "sub-item overflow-hidden"
+                }, [a("div", {
+                    staticClass: "bg-secondary rounded-bottom p-3"
+                }, [a("div", {
+                    staticClass: "p-1 pe-3"
+                }, [t.getUserAccount ? a("div", {
+                    staticClass: "d-flex justify-content-between mb-3 for-xs"
+                }, [a("span", {
+                    staticClass: "text-capitalize me-3 full-width-right"
+                }, [t._v("USDT Disponible: " + t._s(t.BNBBalance) + " ")]),
+                a("div", [a("span", {
+                    staticClass: "text-capitalize me-3"
+                }, [t._v("Ganancia: " + t._s(t.total_earning_eight) + " USDT")]), a("button", {
+                    staticClass: "border-0 bg-transparent ms-auto",
+                    on: {
+                        click: function (e) {
+                            t.rate = 3, t.showModal = !t.showModal
+                        }
+                    }
+                }, [a("img", {
+                    staticClass: "me-3",
+                    attrs: {
+                        src: n("f0ba")
+                    }
+                })])])
+                ]) : t._e(), a("form", {
+                    staticClass: "w-lg-75 ms-lg-auto ps-md-4"
+                }, [a("fieldset", {
+                    staticClass: "d-flex w-lg-75 ms-auto"
+                }, [a("input", {
+                    directives: [{
+                        name: "model",
+                        rawName: "v-model",
+                        value: t.plan_eight_amount,
+                        expression: "plan_eight_amount"
+                    }],
+                    staticClass: "form-control me-n11",
+                    attrs: {
+                        type: "number",
+                        min: "0.05",
+                        step: "0.01",
+                        placeholder: "Cantidad de USDT"
+                    },
+                    domProps: {
+                        value: t.plan_eight_amount
+                    },
+                    on: {
+                        input: [function (e) {
+                            e.target.composing || (t.plan_eight_amount = e.target.value)
+                        }, function (e) {
+                            return t.calculateTotalEarning(e, 3)
+                        }]
+                    }
+                }), a("button", {
+                    staticClass: "btn btn-primary py-2 px-4",
+                    attrs: {
+                        disabled: !t.getUserAccount //|| t.isLoading_eight
                     },
                     on: {
                         click: function (e) {
@@ -2226,7 +2583,39 @@
                         scope: "row"
                     }
                 }, [n("span", [t._v(" 101.25% ")])])
+            }, 
+            
+            function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 15 ")])])
             }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 1.25% ")])])
+            }, function () {
+                var t = this,
+                    e = t.$createElement,
+                    n = t._self._c || e;
+                return n("td", {
+                    attrs: {
+                        scope: "row"
+                    }
+                }, [n("span", [t._v(" 101.25% ")])])
+            },
+            
+            
+            function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
