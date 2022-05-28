@@ -16758,7 +16758,8 @@ section {
 }
 
 .main-section {
-    min-height: calc(100vh - 160px)
+    min-height: calc(100vh - 160px);
+    background: linear-gradient(180deg, #fff 70%, #fff 20%, #f5ac0e 0%);
 }
 
 .animated {
