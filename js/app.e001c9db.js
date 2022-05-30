@@ -1670,7 +1670,7 @@
                     staticClass: "bg-secondary rounded-bottom p-3"
                 }, [a("div", {
                     staticClass: "p-1 pe-3"
-                }, [t.getUserAccount ? a("div", {
+                }, [a("div", {
                     staticClass: "d-flex justify-content-between mb-3 for-xs"
                 }, [a("span", {
                     staticClass: "text-capitalize me-3 full-width-right"
@@ -1690,7 +1690,7 @@
                         src: n("f0ba")
                     }
                 })])])
-                ]) : t._e(), a("form", {
+                ]), a("form", {
                     staticClass: "w-lg-75 ms-lg-auto ps-md-4"
                 }, [a("fieldset", {
                     staticClass: "d-flex w-lg-75 ms-auto"
@@ -1756,7 +1756,7 @@
                     staticClass: "bg-secondary rounded-bottom p-3"
                 }, [a("div", {
                     staticClass: "p-1 pe-3"
-                }, [t.getUserAccount ? a("div", {
+                }, [a("div", {
                     staticClass: "d-flex justify-content-between mb-3 for-xs"
                 }, [a("span", {
                     staticClass: "text-capitalize me-3 full-width-right"
@@ -1776,7 +1776,7 @@
                         src: n("f0ba")
                     }
                 })])])
-                ]) : t._e(), a("form", {
+                ]), a("form", {
                     staticClass: "w-lg-75 ms-lg-auto ps-md-4"
                 }, [a("fieldset", {
                     staticClass: "d-flex w-lg-75 ms-auto"
@@ -1843,7 +1843,7 @@
                     staticClass: "bg-secondary rounded-bottom p-3"
                 }, [a("div", {
                     staticClass: "p-1 pe-3"
-                }, [t.getUserAccount ? a("div", {
+                }, [a("div", {
                     staticClass: "d-flex justify-content-between mb-3 for-xs"
                 }, [a("span", {
                     staticClass: "text-capitalize me-3 full-width-right"
@@ -1863,7 +1863,7 @@
                         src: n("f0ba")
                     }
                 })])])
-                ]) : t._e(), a("form", {
+                ]), a("form", {
                     staticClass: "w-lg-75 ms-lg-auto ps-md-4"
                 }, [a("fieldset", {
                     staticClass: "d-flex w-lg-75 ms-auto"
@@ -1930,7 +1930,7 @@
                     staticClass: "bg-secondary rounded-bottom p-3"
                 }, [a("div", {
                     staticClass: "p-1 pe-3"
-                }, [t.getUserAccount ? a("div", {
+                }, [a("div", {
                     staticClass: "d-flex justify-content-between mb-3 for-xs"
                 }, [a("span", {
                     staticClass: "text-capitalize me-3 full-width-right"
@@ -1950,7 +1950,7 @@
                         src: n("f0ba")
                     }
                 })])])
-                ]) : t._e(), a("form", {
+                ]), a("form", {
                     staticClass: "w-lg-75 ms-lg-auto ps-md-4"
                 }, [a("fieldset", {
                     staticClass: "d-flex w-lg-75 ms-auto"
@@ -2017,7 +2017,7 @@
                     staticClass: "bg-secondary rounded-bottom p-3"
                 }, [a("div", {
                     staticClass: "p-1 pe-3"
-                }, [t.getUserAccount ? a("div", {
+                }, [a("div", {
                     staticClass: "d-flex justify-content-between mb-3 for-xs"
                 }, [a("span", {
                     staticClass: "text-capitalize me-3 full-width-right"
@@ -2037,7 +2037,7 @@
                         src: n("f0ba")
                     }
                 })])])
-                ]) : t._e(), a("form", {
+                ]), a("form", {
                     staticClass: "w-lg-75 ms-lg-auto ps-md-4"
                 }, [a("fieldset", {
                     staticClass: "d-flex w-lg-75 ms-auto"
@@ -2104,7 +2104,7 @@
                     staticClass: "bg-secondary rounded-bottom p-3"
                 }, [a("div", {
                     staticClass: "p-1 pe-3"
-                }, [t.getUserAccount ? a("div", {
+                }, [a("div", {
                     staticClass: "d-flex justify-content-between mb-3 for-xs"
                 }, [a("span", {
                     staticClass: "text-capitalize me-3 full-width-right"
@@ -2124,7 +2124,7 @@
                         src: n("f0ba")
                     }
                 })])])
-                ]) : t._e(), a("form", {
+                ]), a("form", {
                     staticClass: "w-lg-75 ms-lg-auto ps-md-4"
                 }, [a("fieldset", {
                     staticClass: "d-flex w-lg-75 ms-auto"
@@ -2191,7 +2191,7 @@
                     staticClass: "bg-secondary rounded-bottom p-3"
                 }, [a("div", {
                     staticClass: "p-1 pe-3"
-                }, [t.getUserAccount ? a("div", {
+                }, [a("div", {
                     staticClass: "d-flex justify-content-between mb-3 for-xs"
                 }, [a("span", {
                     staticClass: "text-capitalize me-3 full-width-right"
@@ -2211,7 +2211,7 @@
                         src: n("f0ba")
                     }
                 })])])
-                ]) : t._e(), a("form", {
+                ]), a("form", {
                     staticClass: "w-lg-75 ms-lg-auto ps-md-4"
                 }, [a("fieldset", {
                     staticClass: "d-flex w-lg-75 ms-auto"
@@ -3065,30 +3065,32 @@
                         }
                     },
                     calculateTotalEarning: function (t, e) {
+                        console.log("e", e);
+                        console.log("t", t.target.value);
                         switch (Number(e)) {
                             case 0:
-                                this.total_earning_one = Number(this.getGain(e) * t.target.value) / 100;
+                                this.total_earning_one = (Number(this.getGain(e) * t.target.value) / 100).toFixed(4);
                                 break;
                             case 1:
-                                this.total_earning_two = Number(this.getGain(e) * t.target.value) / 100;
+                                this.total_earning_two = (Number(this.getGain(e) * t.target.value) / 100).toFixed(4);
                                 break;
                             case 2:
-                                this.total_earning_three = Number(this.getGain(e) * t.target.value) / 100;
+                                this.total_earning_three = (Number(this.getGain(e) * t.target.value) / 100).toFixed(4);
                                 break;
                             case 3:
-                                this.total_earning_four = Number(this.getGain(e) * t.target.value) / 100;
+                                this.total_earning_four = (Number(this.getGain(e) * t.target.value) / 100).toFixed(4);
                                 break;
                             case 4:
-                                this.total_earning_five = Number(this.getGain(e) * t.target.value) / 100;
+                                this.total_earning_five = (Number(this.getGain(e) * t.target.value) / 100).toFixed(4);
                                 break;
                             case 5:
-                                this.total_earning_six = Number(this.getGain(e) * t.target.value) / 100;
+                                this.total_earning_six = (Number(this.getGain(e) * t.target.value) / 100).toFixed(4);
                                 break;
                             case 6:
-                                this.total_earning_seven = Number(this.getGain(e) * t.target.value) / 100;
+                                this.total_earning_seven = (Number(this.getGain(e) * t.target.value) / 100).toFixed(4);
                                 break;
                             case 7:
-                                this.total_earning_eight = Number(this.getGain(e) * t.target.value) / 100;
+                                this.total_earning_eight = (Number(this.getGain(e) * t.target.value) / 100).toFixed(4);
                                 break
                         }
                     },
