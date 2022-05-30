@@ -1915,11 +1915,11 @@
                             t.row_five = !t.row_five
                         }
                     }
-                }, [t._m(24), t._m(25), t._m(26), a("td", {
+                }, [t._m(28), t._m(29), t._m(30), a("td", {
                     attrs: {
                         scope: "row"
                     }
-                }), t._m(27)]), t.row_five ? a("tr", [a("td", {
+                }), t._m(31)]), t.row_five ? a("tr", [a("td", {
                     staticClass: "p-0 border-0 position-relative end-0",
                     attrs: {
                         colspan: "5"
@@ -2002,11 +2002,11 @@
                             t.row_six = !t.row_six
                         }
                     }
-                }, [t._m(24), t._m(25), t._m(26), a("td", {
+                }, [t._m(32), t._m(33), t._m(34), a("td", {
                     attrs: {
                         scope: "row"
                     }
-                }), t._m(27)]), t.row_six ? a("tr", [a("td", {
+                }), t._m(35)]), t.row_six ? a("tr", [a("td", {
                     staticClass: "p-0 border-0 position-relative end-0",
                     attrs: {
                         colspan: "5"
@@ -2089,11 +2089,11 @@
                             t.row_seven = !t.row_seven
                         }
                     }
-                }, [t._m(24), t._m(25), t._m(26), a("td", {
+                }, [t._m(36), t._m(37), t._m(38), a("td", {
                     attrs: {
                         scope: "row"
                     }
-                }), t._m(27)]), t.row_seven ? a("tr", [a("td", {
+                }), t._m(39)]), t.row_seven ? a("tr", [a("td", {
                     staticClass: "p-0 border-0 position-relative end-0",
                     attrs: {
                         colspan: "5"
@@ -2176,11 +2176,11 @@
                             t.row_eight = !t.row_eight
                         }
                     }
-                }, [t._m(24), t._m(25), t._m(26), a("td", {
+                }, [t._m(40), t._m(41), t._m(42), a("td", {
                     attrs: {
                         scope: "row"
                     }
-                }), t._m(27)]), t.row_eight ? a("tr", [a("td", {
+                }), t._m(43)]), t.row_eight ? a("tr", [a("td", {
                     staticClass: "p-0 border-0 position-relative end-0",
                     attrs: {
                         colspan: "5"
@@ -2453,7 +2453,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 0.31% ")])])
+                }, [n("span", [t._v(" " + t.getGain(0) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2462,7 +2462,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 100,31% ")])])
+                }, [n("span", [t._v(" " + (t.getGain(0) + 100) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2493,7 +2493,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 0.63% ")])])
+                }, [n("span", [t._v(" " + t.getGain(1) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2502,7 +2502,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 100.63% ")])])
+                }, [n("span", [t._v(" " + (t.getGain(1) + 100) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2533,7 +2533,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 0.94% ")])])
+                }, [n("span", [t._v(" " + t.getGain(2) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2542,7 +2542,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 100.94% ")])])
+                }, [n("span", [t._v(" " + (t.getGain(2) + 100) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2573,7 +2573,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 1.25% ")])])
+                }, [n("span", [t._v(" " + t.getGain(3) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2582,7 +2582,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 101.25% ")])])
+                }, [n("span", [t._v(" " + (t.getGain(3) + 100) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2616,7 +2616,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 0.94% ")])])
+                }, [n("span", [t._v(" " + t.getGain(4) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2625,7 +2625,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 100.94% ")])])
+                }, [n("span", [t._v(" " + (t.getGain(4) + 100) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2659,7 +2659,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 0.94% ")])])
+                }, [n("span", [t._v(" " + t.getGain(5) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2668,7 +2668,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 100.94% ")])])
+                }, [n("span", [t._v(" " + (t.getGain(5) + 100) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2701,7 +2701,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 0.94% ")])])
+                }, [n("span", [t._v(" " + t.getGain(6) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2710,7 +2710,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 100.94% ")])])
+                }, [n("span", [t._v(" " + (t.getGain(6) + 100) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2743,7 +2743,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 0.94% ")])])
+                }, [n("span", [t._v(" " + t.getGain(7) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2752,7 +2752,7 @@
                     attrs: {
                         scope: "row"
                     }
-                }, [n("span", [t._v(" 100.94% ")])])
+                }, [n("span", [t._v(" " + (t.getGain(7) + 100) + "% ")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -3044,31 +3044,51 @@
                     humanized: function (t, e) {
                         return Number(this.getWeb3.utils.fromWei(t.toString(), "ether")).toFixed(0 == t ? 3 : e)
                     },
+                    getGain: function (e) {
+                        switch (Number(e)) {
+                            case 0:
+                                return 0.22;
+                            case 1:
+                                return 0.44;
+                            case 2:
+                                return 0.66;
+                            case 3:
+                                return 0.88;
+                            case 4:
+                                return 1.09;
+                            case 5:
+                                return 1.31;
+                            case 6:
+                                return 1.53;
+                            case 7:
+                                return 1.75;
+                        }
+                    },
                     calculateTotalEarning: function (t, e) {
                         switch (Number(e)) {
                             case 0:
-                                this.total_earning_one = Number(0.31 * t.target.value) / 100;
+                                this.total_earning_one = Number(this.getGain(e) * t.target.value) / 100;
                                 break;
                             case 1:
-                                this.total_earning_two = Number(0.63 * t.target.value) / 100;
+                                this.total_earning_two = Number(this.getGain(e) * t.target.value) / 100;
                                 break;
                             case 2:
-                                this.total_earning_three = Number(0.94 * t.target.value) / 100;
+                                this.total_earning_three = Number(this.getGain(e) * t.target.value) / 100;
                                 break;
                             case 3:
-                                this.total_earning_four = Number(1.25 * t.target.value) / 100;
+                                this.total_earning_four = Number(this.getGain(e) * t.target.value) / 100;
                                 break;
                             case 4:
-                                this.total_earning_five = Number(1.56 * t.target.value) / 100;
+                                this.total_earning_five = Number(this.getGain(e) * t.target.value) / 100;
                                 break;
                             case 5:
-                                this.total_earning_six = Number(1.88 * t.target.value) / 100;
+                                this.total_earning_six = Number(this.getGain(e) * t.target.value) / 100;
                                 break;
                             case 6:
-                                this.total_earning_seven = Number(2.19 * t.target.value) / 100;
+                                this.total_earning_seven = Number(this.getGain(e) * t.target.value) / 100;
                                 break;
                             case 7:
-                                this.total_earning_eight = Number(2.5 * t.target.value) / 100;
+                                this.total_earning_eight = Number(this.getGain(e) * t.target.value) / 100;
                                 break
                         }
                     },
@@ -3270,7 +3290,9 @@
             if (distance < 0) {
                 document.getElementById("timerHeadline").innerText = "IluminatisCoin DApp";
                 document.getElementById("timerCountdown").style.display = "none";
-                document.getElementById("timerContent").style.display = "block";
+                if (document.getElementById("timerContent")){
+                    document.getElementById("timerContent").style.display = "block";
+                }
                 clearInterval(x);
                 launched = true;
             }
