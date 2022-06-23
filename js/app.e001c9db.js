@@ -1472,10 +1472,11 @@
                     },
                     on: {
                         click: t.harvest
-                    }
+                    },
                 }, [t._v(" Harvest ")])]), a("div", {
                     staticClass: "row"
-                }, [a("div", {
+                },
+                 [a("div", {
                     staticClass: "col-6 mb-4"
                 }, [a("div", {
                     staticClass: "w-100"
@@ -3168,7 +3169,7 @@
                         }
                     },
                     harvest: function () {
-                        var t = this;
+                          var t = this;
                         this.isLoading = !0, this.getInstance.methods.withdraw().send({
                             from: this.getUserAccount
                         }).on("transactionHash", (function (e) {
@@ -3178,6 +3179,7 @@
                         })).on("error", (function (t) {
                             console.log("Error receipt: ", t)
                         }))
+                          
                     }
                 },
                 computed: Object(o["a"])({}, Object(d["c"])("wallet", ["getWeb3", "getReferral", "getUserAccount", "getInstance", "getContractABI", "getContractAddress", "getBUSDInstance", "getBUSDContractABI", "getBUSDContractAddress"])),
