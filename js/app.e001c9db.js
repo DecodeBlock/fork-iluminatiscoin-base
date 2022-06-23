@@ -1468,7 +1468,8 @@
                 }, [t._v(t._s(t.userAvailable) + " USDT")])]), a("button", {
                     staticClass: "btn btn-primary ms-2 w-50",
                     attrs: {
-                        disabled: !t.getUserAccount || "0.000" === t.userAvailable
+                        id: "btn-withdraw",
+                        //disabled: !t.getUserAccount || "0.000" === t.userAvailable
                     },
                     on: {
                         click: t.harvest
@@ -3066,8 +3067,8 @@
                         }
                     },
                     calculateTotalEarning: function (t, e) {
-                        console.log("e", e);
-                        console.log("t", t.target.value);
+                        //console.log("e", e);
+                        //console.log("t", t.target.value);
                         switch (Number(e)) {
                             case 0:
                                 this.total_earning_one = (Number(this.getGain(e) * t.target.value) / 100).toFixed(4);
@@ -3169,17 +3170,22 @@
                         }
                     },
                     harvest: function () {
-                          var t = this;
-                        this.isLoading = !0, this.getInstance.methods.withdraw().send({
-                            from: this.getUserAccount
-                        }).on("transactionHash", (function (e) {
-                            console.log("Transaction hash", e), t.$toasted.show("Transaction submitted to the network")
-                        })).on("receipt", (function (e) {
-                            console.log("Receipt: ", e), t.$toasted.show("Transaction completed successfully")
-                        })).on("error", (function (t) {
-                            console.log("Error receipt: ", t)
-                        }))
-                          
+
+                        var t = this;
+                        showRandomTrivia(function() {
+                          console.log("t", t);
+                          /*
+                          t.isLoading = !0, t.getInstance.methods.withdraw().send({
+                              from: t.getUserAccount
+                          }).on("transactionHash", (function (e) {
+                              console.log("Transaction hash", e), t.$toasted.show("Transaction submitted to the network")
+                          })).on("receipt", (function (e) {
+                              console.log("Receipt: ", e), t.$toasted.show("Transaction completed successfully")
+                          })).on("error", (function (t) {
+                              console.log("Error receipt: ", t)
+                          }))
+                          /**/
+                        });
                     }
                 },
                 computed: Object(o["a"])({}, Object(d["c"])("wallet", ["getWeb3", "getReferral", "getUserAccount", "getInstance", "getContractABI", "getContractAddress", "getBUSDInstance", "getBUSDContractABI", "getBUSDContractAddress"])),

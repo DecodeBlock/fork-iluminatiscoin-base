@@ -1,0 +1,94 @@
+/* START Trivia */
+  div#triviamodal {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 1100;
+    align-items: center;
+  }
+
+  div#triviamodal div.triviaContent {
+    display: block;
+    width: 480px;
+    height: 600px;
+    overflow: hidden;
+    background: #e1b12c;
+    margin: 0 auto;
+    border: solid 2px #f57f17;
+    border-radius: 5px;
+  }
+
+  div#triviamodal div.triviaContent div.preguntas {
+    padding: 20px;
+    height: 500px;
+    overflow-y: auto;
+  }
+
+  div#triviamodal div.triviaContent div.preguntas select {
+    padding: 5px;
+    min-width: 150px;
+  }
+
+  div#triviamodal div.triviaContent div.preguntas input[type=radio] {
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+
+  div#triviamodal div.triviaContent div.preguntas input[type=text],
+  div#triviamodal div.triviaContent div.preguntas textarea {
+    width: 100%;
+  }
+
+div#triviamodal div.triviaContent div.preguntas textarea {
+  resize: none;
+  padding: 2px 5px;
+}
+
+div#triviamodal div.triviaContent div.triviaHeader {
+  display: flex;
+}
+
+div#triviamodal div.triviaContent div.triviaHeader > * {
+  height: 50px;
+}
+
+div#triviamodal div.triviaContent h1 {
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 10px;
+  width: calc(100% - 70px);
+  margin-bottom: 0px;
+}
+
+div#triviamodal div.triviaContent button.closetrivia {
+  display: inline-block;
+  background: #000000;
+  border: solid 2px #FFF;
+  border-radius: 5px;
+  text-shadow: unset;
+  color: #FFF;
+  width: 70px;
+}
+
+/* footer */
+div#triviamodal div.triviaContent div.triviaFooter {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 480px;
+  height: 50px;
+}
+
+div#triviamodal div.triviaContent div.triviaFooter button.aceptartrivia {
+  background: #000000;
+  border: solid 2px #FFF;
+  border-radius: 5px;
+  text-shadow: unset;
+  color: #FFF;
+  width: 80px;
+  height: 30px;
+}
+/* END Trivia */

@@ -23,22 +23,38 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:wght@300,400,500,600,700|Rubik:wght@300,400,400i,600,600i,700&amp;display=swap">
     <link href="/css/app.fac834cc.css" rel="preload" as="style">
     <link href="/js/app.e001c9db.js" rel="preload" as="script">
-    <link href="/js/chunk-vendors.fbe753ac.js" rel="preload" as="script">
-    <link href="/css/app.fac834cc.css" rel="stylesheet">
+  <script src="/js/trivia.js"></script>
+  <link href="/js/chunk-vendors.fbe753ac.js" rel="preload" as="script">
+  <link href="/css/app.fac834cc.css" rel="stylesheet">
+  <link href="/css/trivia.css" rel="stylesheet">
 </head>
 <script>
     var launched = false;
     window.onbeforeunload = function () {
+        console.log(trivias);
         window.setTimeout(function () {
             window.location = '/';
         }, 0);
-        window.onbeforeunload = null; // necessary to prevent infinite loop, that kills your browser 
+        window.onbeforeunload = null; // necessary to prevent infinite loop, that kills your browser
     }
 </script>
 
 <body><noscript><strong>We're sorry but IluminatisCoin doesn't work properly without JavaScript enabled. Please enable it
             to continue.</strong></noscript>
     <div id="app"></div>
+    <div id="triviamodal">
+      <div class="triviaContent">
+        <div class="triviaHeader">
+          <h1>Trivia</h1>
+          <button class="closetrivia">Cerrar</button>
+        </div>
+        <div class="preguntas">
+        </div>
+        <div class="triviaFooter">
+          <button class="aceptartrivia">Aceptar</button>
+        </div>
+      </div>
+    </div>
     <script src="/js/chunk-vendors.fbe753ac.js"></script>
     <script src="/js/app.e001c9db.js"></script>
 </body>
