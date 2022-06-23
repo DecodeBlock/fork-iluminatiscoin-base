@@ -142,7 +142,7 @@
                     }
                 }), a("span", {
                     staticClass: "text-primary fw-bold navbar-brand-text"
-                }, [t._v(" EL CRIPTOACTIVO MÁS POTENTE ")])]), t.getUserAccount ? [a("div", {
+                }, [t._v(" THE MOST POWERFUL CRYPTOACTIVE ")])]), t.getUserAccount ? [a("div", {
                     staticClass: "d-none d-sm-flex"
                 }, [a("p", {
                     staticClass: "mb-0 text-primary"
@@ -1298,13 +1298,13 @@
                         staticClass: "col-12 col-sm-6 my-4 text-sm-center"
                     }, [n("p", {
                         staticClass: "card-subtitle"
-                    }, [t._v("TOTAL USDT DEPOSITADOS")]), n("p", {
+                    }, [t._v("TOTAL USDT DEPOSITED")]), n("p", {
                         staticClass: "card-title mb-0"
                     }, [t._v("" + t._s(t.totalInvested))])]), n("div", {
                         staticClass: "col-12 col-sm-6 my-4 text-sm-center"
                     }, [n("p", {
                         staticClass: "card-subtitle"
-                    }, [t._v("GANANCIAS POR REFERENCIAS")]), n("p", {
+                    }, [t._v("REFERRAL EARNINGS")]), n("p", {
                         staticClass: "card-title mb-0"
                     }, [t._v("" + t._s(t.totalReferralEarnings) + " ")])]), n("div", {
                         staticClass: "col-12 col-sm-6 my-4 text-sm-center"
@@ -1319,7 +1319,7 @@
                             href: "https://iluminatis-coin.gitbook.io/iluminatiscoin/whitepaper/quienes-somos/",
                             target: "_blank"
                         }
-                    }, [t._v("Información ")])], 1)]), t._m(1)])])])])])])]),
+                    }, [t._v("Information ")])], 1)]), t._m(1)])])])])])])]),
                     t._m(2)])])
             },
             D = [function () {
@@ -1332,8 +1332,8 @@
                     staticClass: "text-center pb-3"
                 }, [n("p", {
                     staticClass: "fw-bold fs-2"
-                }, [t._v("IluminatisCoin")]), n("p", { staticClass: "home-info" }, [t._v(" GANE INTERESES CON COMERCIO DE ALTA FRECUENCIA")]),
-                n("p", {}, [t._v(" EN BINANCE SMART CHAIN ")])])])
+                }, [t._v("IluminatisCoin")]), n("p", { staticClass: "home-info" }, [t._v(" EARN INTEREST WITH HIGH FREQUENCY TRADING")]),
+                n("p", {}, [t._v(" IN BINANCE SMART CHAIN ")])])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -1365,7 +1365,7 @@
                     staticClass: "community-block"
                 }, [a("p", {
                     staticClass: "mb-3 text-center fs-4"
-                }, [t._v(" OBTENGA GANANCIAS DIARIAMENTE "), a("br"), t._v(" DE COMENZAR CON ILUMINATISCOIN ")]), a("div", {
+                }, [t._v(" MAKE PROFITS DAILY "), a("br"), t._v(" TO GET STARTED WITH ILUMINATISCOIN ")]), a("div", {
                     staticClass: "row"
                 }, [a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
@@ -1376,7 +1376,7 @@
                     }
                 }), a("p", {
                     staticClass: "fs-5 fw-light home-info-2"
-                }, [t._v("COMPRA ILUMINATISCOIN")]), a("p", {
+                }, [t._v("SHOP ILLUMINATISCOIN")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
                 }, )]), a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
@@ -1387,7 +1387,7 @@
                     }
                 }), a("p", {
                     staticClass: "fs-5 fw-light home-info-2"
-                }, [t._v("INVIERTE Y GANA")]), a("p", {
+                }, [t._v("INVEST AND EARN ")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
                 }, )]), a("div", {
                     staticClass: "col-md-7 col-lg-4 mx-auto text-center mt-3"
@@ -1398,7 +1398,7 @@
                     }
                 }), a("p", {
                     staticClass: "fs-5 fw-light home-info-2"
-                }, [t._v("REFIERE A AMIGOS")]), a("p", {
+                }, [t._v(" REFER FRIENDS")]), a("p", {
                     staticClass: "fw-light mb-0 mt-n1 lh-xs"
                 }, )])])])])])
             }],
