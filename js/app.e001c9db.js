@@ -1538,7 +1538,7 @@
                     attrs: {
                         id: "copy-link"
                     }
-                }, [t._v(" " + t._s("https://iluminatisCoin.io/?ref=" + t.getUserAccount) + " ")])]), a("div", {
+                }, [t._v(" " + t._s("https://iluminatisCoin.com/?ref=" + t.getUserAccount) + " ")])]), a("div", {
                     staticClass: "tooltip-container"
                 }, [a("button", {
                     staticClass: "btn btn-primary py-2",
