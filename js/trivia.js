@@ -37,23 +37,23 @@ var trivias = [
       {
         pregunta: "Favorite season of the year?",
         tipo: TriviaType.Select,
-        opciones: ["Verano", "Invierno", "Otoño", "Primavera"]
+        opciones: ["Summer", "Winter", "Fall", "Spring"]
       }
     ]
   },
   {
     preguntas: [
       {
-        pregunta: "¿Ciudad o campo?",
+        pregunta: "City ​​or Country?",
         tipo: TriviaType.Select,
-        opciones: ["Ciudad", "Campo"]
+        opciones: ["City", "Countryside"]
       }
     ]
   },
   {
     preguntas: [
       {
-        pregunta: "¿Comida rápida favorita?",
+        pregunta: "Favorite fast food?",
         tipo: TriviaType.Text
       }
     ]
@@ -61,11 +61,11 @@ var trivias = [
   {
     preguntas: [
       {
-        pregunta: "¿Te gustaría tener un superpoder?",
+        pregunta: "Would you like to have a superpower?",
         tipo: TriviaType.SiNo
       },
       {
-        pregunta: "¿Cuál?",
+        pregunta: "Which?",
         tipo: TriviaType.Text
       }
     ]
@@ -73,16 +73,16 @@ var trivias = [
   {
     preguntas: [
       {
-        pregunta: "¿Viajarías al futuro o al pasado?",
+        pregunta: "Would you travel to the future or the past?",
         tipo: TriviaType.Select,
-        opciones: ["Futuro", "Pasado"]
+        opciones: ["Future", "Past"]
       }
     ]
   },
   {
     preguntas: [
       {
-        pregunta: "¿Cuál es el secreto más grande que tienes?",
+        pregunta: "What is the biggest secret you have?",
         tipo: TriviaType.Textarea,
         lineas: 3,
         value: "",
@@ -92,29 +92,29 @@ var trivias = [
   {
     preguntas: [
       {
-        pregunta: "¿Perros o gatos?",
+        pregunta: "Dogs or Cats?",
         tipo: TriviaType.Select,
-        opciones: ["Perros", "Gatos"]
+        opciones: ["Dogs", "Cats"]
       }
     ]
   },
   {
     preguntas: [
       {
-        pregunta: "¿Si tuvieras mucho dinero: lo ahorrarías o lo gastarías?",
+        pregunta: "If you had a lot of money: would you save it or spend it?",
         tipo: TriviaType.Select,
-        opciones: ["Ahorrar", "Gastar"]
+        opciones: ["Save Money", "To Spend"]
       }
     ]
   },
   {
     preguntas: [
       {
-        pregunta: "¿Tocas algún instrumento?",
+        pregunta: "Do you play any instrument?",
         tipo: TriviaType.SiNo
       },
       {
-        pregunta: "¿Cuál?",
+        pregunta: "Which?",
         tipo: TriviaType.Text
       }
     ]
@@ -122,7 +122,7 @@ var trivias = [
   {
     preguntas: [
       {
-        pregunta: "¿Te casarías?",
+        pregunta: "Would you marry",
         tipo: TriviaType.SiNo
       }
     ]
