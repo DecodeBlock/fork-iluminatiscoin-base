@@ -446,7 +446,7 @@
                     BUSDInstance: null,
                     referral: "",
                     //contractAddress: "0xcfefa22C4823B6b44592d98b18280A846d3524c3",
-                    contractAddress: "0x550fe767e5A9Cd39A5c2886b2C31bDa1E1753c10",
+                    contractAddress: "0xA5FDC1d46E8CCb86CD33E3E9599cD607cE9dfe88",
                     contractABI: [
                         {
                             "inputs": [
@@ -1259,19 +1259,19 @@
                                 n("ul", {}, [
                                     n("li", {}, [
                                         n("span", { attrs: { id: "days" } }, []),
-                                        t._v("DIAS")
+                                        t._v("DAYS")
                                     ]),
                                     n("li", {}, [
                                         n("span", { attrs: { id: "hours" } }, []),
-                                        t._v("HORAS")
+                                        t._v("HOURS")
                                     ]),
                                     n("li", {}, [
                                         n("span", { attrs: { id: "minutes" } }, []),
-                                        t._v("MINUTOS")
+                                        t._v("MINUTES")
                                     ]),
                                     n("li", {}, [
                                         n("span", { attrs: { id: "seconds" } }, []),
-                                        t._v("SEGUNDOS")
+                                        t._v("SECONDS")
                                     ])
                                 ])
                             ],
@@ -1521,7 +1521,7 @@
                     staticClass: "rounded pb-3 pt-2"
                 }, [a("p", {
                     staticClass: "mb-0"
-                }, [t._v("Su Enlace Personal:")]), a("div", [a("input", {
+                }, [t._v("Your Personal Link:")]), a("div", [a("input", {
                     staticClass: "tron-link position-absolute",
                     staticStyle: {
                         opacity: "0"
@@ -2343,42 +2343,42 @@
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("USDT en Plataforma")])])
+                }, [n("small", [t._v("USDT on Platform")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("USDT en Wallet")])])
+                }, [n("small", [t._v("USDT in Wallet")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("Total Depositado")])])
+                }, [n("small", [t._v("Total Deposited")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("Total Retirado")])])
+                }, [n("small", [t._v("Total Retired")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("Total Por Referidos")])])
+                }, [n("small", [t._v("Total By Referrals")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [n("small", [t._v("Invitados")])])
+                }, [n("small", [t._v("Invited")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2394,14 +2394,14 @@
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [t._v("1 LVL - "), n("small", [t._v("Tu usuario invitado")]), t._v(" - 7%")])
+                }, [t._v("1 LVL - "), n("small", [t._v("Your invited user")]), t._v(" - 7%")])
             }, function () {
                 var t = this,
                     e = t.$createElement,
                     n = t._self._c || e;
                 return n("p", {
                     staticClass: "mb-0"
-                }, [t._v(" 2 LVL - "), n("small", [t._v("Tu usuario invitado")]), t._v(" - 3% 1 lvl")])
+                }, [t._v(" 2 LVL - "), n("small", [t._v("Your invited user")]), t._v(" - 3% 1 lvl")])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2410,7 +2410,7 @@
                     staticClass: "card-header border-0 pb-0"
                 }, [n("p", {
                     staticClass: "card-title mb-0"
-                }, [t._v("Invierte USDT")])])
+                }, [t._v("Invest USDT")])])
             }, function () {
                 var t = this,
                     e = t.$createElement,
@@ -2422,17 +2422,17 @@
                     attrs: {
                         scope: "col"
                     }
-                }, [n("small", [t._v("Horas")])]), n("td", {
+                }, [n("small", [t._v("Hours")])]), n("td", {
                     staticClass: "text-capitalize",
                     attrs: {
                         scope: "col"
                     }
-                }, [n("small", [t._v("% Ganancia")])]), n("td", {
+                }, [n("small", [t._v("% Gain")])]), n("td", {
                     staticClass: "text-capitalize",
                     attrs: {
                         scope: "col"
                     }
-                }, [n("small", [t._v("% total")])]), n("td", {
+                }, [n("small", [t._v("% Total")])]), n("td", {
                     staticClass: "text-capitalize",
                     attrs: {
                         scope: "col"

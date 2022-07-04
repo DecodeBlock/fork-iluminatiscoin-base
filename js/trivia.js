@@ -11,7 +11,7 @@ var trivias = [
   {
     preguntas: [
       {
-        pregunta: "¿Pasatiempo favorito?",
+        pregunta: "Favorite hobby?",
         tipo: TriviaType.Text
       }
     ]
@@ -19,7 +19,7 @@ var trivias = [
   {
     preguntas: [
       {
-        pregunta: "¿Crees en el amor a primera vista?",
+        pregunta: "Do you believe in love at first sight?",
         tipo: TriviaType.SiNo
       }
     ]
@@ -27,7 +27,7 @@ var trivias = [
   {
     preguntas: [
       {
-        pregunta: "¿Cuál es tu comida favorita?",
+        pregunta: "What is your favorite food?",
         tipo: TriviaType.Text
       }
     ]
@@ -35,7 +35,7 @@ var trivias = [
   {
     preguntas: [
       {
-        pregunta: "¿Estación favorita del año?",
+        pregunta: "Favorite season of the year?",
         tipo: TriviaType.Select,
         opciones: ["Verano", "Invierno", "Otoño", "Primavera"]
       }
