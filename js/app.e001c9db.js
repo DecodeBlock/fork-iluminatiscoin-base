@@ -446,7 +446,7 @@
                     BUSDInstance: null,
                     referral: "",
                     //contractAddress: "0xcfefa22C4823B6b44592d98b18280A846d3524c3",
-                    contractAddress: "0xA5FDC1d46E8CCb86CD33E3E9599cD607cE9dfe88",
+                    contractAddress: "0xF9D9d0f735BC3f343dca130BBE52f4ceB4BAf905",
                     contractABI: [
                         {
                             "inputs": [
