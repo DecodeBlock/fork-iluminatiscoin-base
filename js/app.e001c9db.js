@@ -3248,7 +3248,7 @@
         t.exports = n.p + "img/test.gif"
     },
     d3af: function (t, e, n) {
-        t.exports = n.p + "img/3b337921e04b6b4474d30684bfa430b9.a72f8730.svg"
+        t.exports = n.p + "img/3b337921e04b6b4474d30684bfa430b9.a72f8730.png"
     },
     d6ff: function (t, e, n) { },
     da13: function (t, e, n) {
