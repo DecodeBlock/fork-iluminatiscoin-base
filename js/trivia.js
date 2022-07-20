@@ -130,25 +130,25 @@ var trivias = [
   {
     preguntas: [
       {
-        pregunta: "¿Bailar o cantar?",
+        pregunta: "¿Dance or Sing?",
         tipo: TriviaType.Select,
-        opciones: ["Bailar", "Cantar"]
+        opciones: ["Dance", "Sing"]
       }
     ]
   },
   {
     preguntas: [
       {
-        pregunta: "¿Playa o bosque?",
+        pregunta: "¿Beach or Forest?",
         tipo: TriviaType.Select,
-        opciones: ["Playa", "Bosque"]
+        opciones: ["Beach", "Forest"]
       }
     ]
   },
   {
     preguntas: [
       {
-        pregunta: "¿Qué te parece Iluminatis Coin?",
+        pregunta: "How about IluminatisCoin?",
         tipo: TriviaType.Rate,
         min: 1,
         max: 10,
@@ -158,7 +158,7 @@ var trivias = [
   {
     preguntas: [
       {
-        pregunta: "¿Qué cantidad te interesaría invertir?",
+        pregunta: "How much would you be interested in investing?",
         tipo: TriviaType.Amount,
         min: 0,
         max: 1000000,
